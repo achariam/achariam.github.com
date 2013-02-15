@@ -107,7 +107,7 @@ a:hover{
 	display: inline;
 	float: left;
 	text-align: right;
-	margin: 0 0 5% 0;
+	margin: 0 0 3% 0;
 	-webkit-animation: fadein 2s ease-in;
     -webkit-animation-fill-mode: both;
 
