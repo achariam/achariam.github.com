@@ -170,9 +170,8 @@ a:hover{
 	.networks{
 		width: 100%;
 		height: 10%;
-		display: inline;
+		display: inline-block;
 		text-align: center;
-		padding: 1%;
 	}	
 
 }
