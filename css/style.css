@@ -116,6 +116,7 @@ a:hover{
 .networks li{
 	list-style-type: none;
 	display: inline;
+	padding: 2%;
 }
 
 .networks a{
