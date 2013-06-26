@@ -1,0 +1,179 @@
+/*
+author: Matthew Achariam
+created: April 2013
+colophon: Limitless
+version: 4.0
+*/
+
+/*----Framework----*/
+
+html { font-size: 62.5%; }
+
+body{
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	background: #fff;
+	font-family: 'Vollkorn', Georgia, serif;
+	font-weight: 400;
+	text-rendering: optimizeLegibility;
+	color: #41464b;
+	height: 100%;
+	width: 100%;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+@-webkit-keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+@-o-keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+@-moz-keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+
+a{
+	color: #999;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #df4c61;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+.active{
+	color: #df4c61;
+}
+
+.container{
+	-webkit-animation: fadein 1s ease-in;
+    -webkit-animation-fill-mode: both;
+    -moz-animation: fadein 1s ease-in;
+    -moz-animation-fill-mode: both;
+    animation: fadein 1s ease-in;
+    animation-fill-mode: both;
+}
+
+
+::selection {
+    background-color: #df4c61;
+    color: #fff;
+}
+
+
+/*----Header----*/
+
+#logo{
+	margin: 80px auto 30px auto;
+	display: block;
+	max-width: 50px;
+}
+
+.navigation {
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin: 0 0 60px 0;
+}
+
+.navigation li{
+	list-style-type: none;
+	display: inline;
+	margin: 0 10px 0 10px;
+}
+
+.navigation a{
+	font-size: 1.8rem;
+	text-decoration: none;
+}
+
+/*----Writing----*/
+
+.writing{
+	font-size: 2.9rem;
+	line-height: 4.6rem;
+	margin: 0 0 30px 0;
+	text-align: center;
+}
+
+.writing li::after {
+	content: ' ';
+	display: block;
+	width: 15rem;
+	border-top: .1rem solid #dedede;
+	margin: 3rem auto 3rem auto;
+}
+
+.writing a{
+	color: #41464b;
+}
+
+.writing a:hover{
+	color: #df4c61;
+}
+
+.writing li{
+	list-style-type: none;
+}
+
+
+/*----Info----*/
+
+.who{
+	font-size: 2.9rem;
+	line-height: 4.6rem;
+	margin: 0 0 30px 0;
+}
+
+.who::after {
+	content: ' ';
+	display: block;
+	width: 15rem;
+	border-top: .1rem solid #dedede;
+	margin: 5rem auto 6rem auto;
+}
+
+.networks{
+	text-align: center;
+	border-bottom: none;
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	letter-spacing: .1rem;
+	margin: 0 0 100px 0;
+}
+
+.networks li{
+	list-style-type: none;
+	display: inline;
+	margin: 0 5px 0 0;
+}
+
+.networks a{
+	color: #df4c61;
+}
+
+.networks a:hover{
+	color: #41464b;
+}
+
+/*----Responsive----*/
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+.who, .writing{
+	font-size: 2.4rem;
+	line-height: 3.6rem;
+}
+
+
+}
+
+
+
+
+
+
