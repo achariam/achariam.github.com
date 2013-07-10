@@ -85,6 +85,10 @@
 	margin: 0 0 13px 0;
 }
 
+.work a:hover{
+	opacity: .5;
+}
+
 
 
 /* #About
