@@ -8,6 +8,7 @@
 ==================================================
     #Header
     #Work
+    #Projects
     #About
     #Animations
 	#Media Queries
@@ -57,7 +58,7 @@
 
 .navigation ul li{
 	display: inline;
-	margin: 0 2px 0 30px;
+	margin: 0 0 0 5px;
 }
 
 .navigation ul{
@@ -66,17 +67,17 @@
 		text-align: right;
 }
 
+.highlight{
+	color:#32383d; !important
+}
+
 
 /* #Work
 ================================================== */
 
-.sortnav ul li{
-	display: inline;
-	margin: 0 20px 0 0;
-}
 
 .work{
-	margin: 40px 0 100px 0;
+	margin: 70px 0 100px 0;
 }
 
 .work img{
@@ -85,10 +86,70 @@
 	margin: 0 0 13px 0;
 }
 
-.work a:hover{
-	opacity: .5;
+.work img:hover{
+  	box-shadow: 6px 7px 0 0 #8c98a2;
+  	opacity: .9;
+  	padding: -6px 0 6px -6px;
+  	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	transition: all .3s linear;
 }
 
+
+/* #Projects
+================================================== */
+
+.workinfo{
+	margin: 70px 0 0 0;
+}
+
+.filmstant{
+	margin: 70px 0 100px 0;
+}
+
+.filmstant img{
+	max-width: 100%;
+	height: auto;
+}
+
+.workdesc h3{
+	font-weight: 400;
+	font-size: 2.0rem;
+	margin: 0 0 30px 0;
+	border-top: 3px solid #32383d;
+	padding: 30px 0 0 0;
+}
+
+.workdesc p{
+	margin: 0 0 30px 0;
+	border-top: 3px solid #32383d;
+	padding: 30px 0 0 0;
+}
+
+.workdetails h3{
+	font-weight: 400;
+	font-size: 2.0rem;
+	margin: 0 0 10px 0;
+	border-top: 1px solid #32383d;
+	padding: 20px 0 0 0;
+}
+
+.workdetails h3:first-child{
+	border-top: 3px solid #32383d;
+	padding: 30px 0 0 0;
+}
+
+.workdetails p{
+	margin: 0 0 20px 0;
+}
+
+.workdetails p:last-child{
+	margin: 0 0 20px 0;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid #32383d;
+}
 
 
 /* #About
@@ -201,6 +262,11 @@
 
 	/* Smaller than standard 960 (devices and browsers) */
 	@media only screen and (max-width: 959px) {
+		body{
+			font-size: 1.5rem;
+			line-height: 2.3rem;
+		}
+
 
 	}
 

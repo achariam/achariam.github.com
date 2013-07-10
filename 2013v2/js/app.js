@@ -1,8 +1,3 @@
-$(document).ready(function(){
-  $("#hide").click(function(){
-    $('p').css('opacity','0');
+ $(document).ready(function(){
+    $("#videoframe").fitVids();
   });
-  $("#show").click(function(){
-    $("p").show();
-  });
-})
