@@ -101,13 +101,22 @@
 /* #Projects
 ================================================== */
 
+.specialtitle h3{
+	font-weight: 400;
+	font-size: 2.0rem;
+	margin: 0 0 30px 0;
+	border-top: 3px solid #32383d;
+	padding: 30px 0 0 0;
+}
+
+.boxspace{
+	margin: 70px 0 100px 0;
+}
+
 .workinfo{
 	margin: 70px 0 0 0;
 }
 
-.filmstant{
-	margin: 70px 0 100px 0;
-}
 
 .filmstant img{
 	max-width: 100%;
@@ -151,13 +160,31 @@
 	border-bottom: 1px solid #32383d;
 }
 
+.video{
+	margin: 70px 0 100px 0;
+}
+
+.video h3{
+	font-weight: 400;
+	font-size: 2.0rem;
+	margin: 0 0 30px 0;
+	border-top: 3px solid #32383d;
+	padding: 30px 0 0 0;
+}
+
+.videoframe{
+	margin: 0 0 70px 0;
+}
+
+.illustration img{
+ margin: 0 0 70px 0;
+}
+
+
 
 /* #About
 ================================================== */
 
-.about{
-	margin: 70px 0 100px 0;
-}
 
 .about h3{
 	font-weight: 400;
