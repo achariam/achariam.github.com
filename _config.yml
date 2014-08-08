@@ -1,0 +1,9 @@
+# Site settings
+title: Matthew Achariam
+email: matt@achariam.com
+description: "Selected Works and Ideas of Matthew Achariam"
+url: "http://www.achariam.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
