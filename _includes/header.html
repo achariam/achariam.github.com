@@ -1,37 +1,35 @@
 <!DOCTYPE html>
 <html{% if page.class %} class="{{ page.class }}"{% endif %}>
 <head>
-  <meta charset="utf-8">
+  
   <title>{{ page.title }} | {{ site.name }}</title>
-  <meta name="viewport" content="initial-scale=1" />
-  <meta name="p:domain_verify" content="aa712630840b421410cce3b56d2dc764" />
 
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1" />
+  <meta name="p:domain_verify" content="782fc5afec29e10aae116eb056336708"/>
   <meta property="og:title" content="{{ page.title }}"/>
   <meta property="og:site_name" content="{{ site.name }}"/>
   <meta property="og:url" content="{{ page.url }}"/>
   <meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
 
-  {% stylesheet style %}
-
-  <!-- Touch icon -->
+  <!-- Icons -->
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-
-  <!-- Favicon -->
   <link rel="shortcut icon" href="/favicon.png" />
 
-  <!-- Type, y'all -->
-  <script type="text/javascript" src="//use.typekit.net/dkj5obg.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <!-- Style & Type -->
+  <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/style.css">
 
-  <!-- RSS, brotha -->
- <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
 
-  <!-- You know, rather than reading the source like a chump, you can see it all on GitHub like a champ: https://github.com/daneden/daneden.me -->
 </head>
+
 <body>
+
   <header class="wrap site__header" role="banner">
-    <a class="site__title o--b o--p" href="/" title="{{ site.name }} • Home">
+    <a href="/" title="{{ site.name }} • Home">
       {{ site.name }}
     </a>
-    {% include nav.html %}
   </header>
