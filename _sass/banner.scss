@@ -1,0 +1,46 @@
+/* Banner */
+
+.circle { 
+	width: 0.8rem;
+	height: 0.8rem;
+  margin: 0 0 $baseline 0;
+  opacity: 0.8;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  background: linear-gradient(150deg, #34a7b7, #4446e8, #cb40e4, #f81d93, #fb5454, #f5b53b, #daff8c, #36ee91, #00afcf);
+  background-size: 2000% 300%;
+
+-webkit-animation: rainbow 100s ease infinite;
+-z-animation: rainbow 100s ease infinite;
+-o-animation: rainbow 100s ease infinite;
+  animation: rainbow 100s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+.banner {
+
+}
+
+.site_title {
+  font-size: 1.1rem;
+}

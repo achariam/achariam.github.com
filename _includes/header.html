@@ -2,7 +2,7 @@
 <html{% if page.class %} class="{{ page.class }}"{% endif %}>
 <head>
   
-  <title>{{ page.title }} | {{ site.name }}</title>
+  <title>{{ site.name }} + {{ page.title }}</title>
 
   <!-- Meta -->
   <meta charset="utf-8">
@@ -18,8 +18,8 @@
   <link rel="shortcut icon" href="/favicon.png" />
 
   <!-- Style & Type -->
-  <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic|Source+Code+Pro' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/assets/css/style.css">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
@@ -28,8 +28,8 @@
 
 <body>
 
-  <header class="wrap site__header" role="banner">
-    <a href="/" title="{{ site.name }} • Home">
-      {{ site.name }}
-    </a>
-  </header>
+<div class="wrap">
+{% include banner.html %}
+
+{% include nav.html %}
+</div>
