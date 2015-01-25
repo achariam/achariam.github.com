@@ -25,9 +25,9 @@ I chose to work on an idea that I had sketched out in 2009. After owning an iPho
 
 This was the original abstract:
 
-*An LED wifi enabled cube that displays ambient information, such as weather, through glowing colors. It will be controlled by both a web and mobile app.* 
+> *An LED wifi enabled cube that displays ambient information, such as weather, through glowing colors. It will be controlled by both a web and mobile app.* 
 
-*Ambient notifications sit in-between being notified and not. In the current binary notification system, an invite to play Candy Crush on Facebook gets the same attention as a text message. Users will be able to create their own notification hierarchy.*
+> *Ambient notifications sit in-between being notified and not. In the current binary notification system, an invite to play Candy Crush on Facebook gets the same attention as a text message. Users will be able to create their own notification hierarchy.*
 
 I am about to delve into the world of hardware prototyping again and writing about my last project clears a path for the next one.
 
@@ -37,11 +37,11 @@ The most exciting part of undertaking a project like this is the ability to lear
 
 The best advice for the kind of mindset you have to be in or adapt is aptly summarized by Elon Musk in a recent AMA.
 
-*”I do kinda feel like my head is full! My context switching penalty is high and my process isolation is not what it used to be.*
+> *”I do kinda feel like my head is full! My context switching penalty is high and my process isolation is not what it used to be.*
 
-*Frankly, though, I think most people can learn a lot more than they think they can. They sell themselves short without trying.*
+> *Frankly, though, I think most people can learn a lot more than they think they can. They sell themselves short without trying.*
 
-*One bit of advice: it is important to view knowledge as sort of a semantic tree -- make sure you understand the fundamental principles, ie the trunk and big branches, before you get into the leaves/details or there is nothing for them to hang on to.”*
+> *One bit of advice: it is important to view knowledge as sort of a semantic tree -- make sure you understand the fundamental principles, ie the trunk and big branches, before you get into the leaves/details or there is nothing for them to hang on to.”*
 
 [-Elon Musk](http://www.reddit.com/r/IAmA/comments/2rgsan/i_am_elon_musk_ceocto_of_a_rocket_company_ama/cnfre0a)
 
@@ -56,9 +56,9 @@ For a real world example, Adam Savage of Mythbusters demonstrates [this paradigm
 
 Jony Ive, talks about learning by making as well:
 
-*“The drive each time was to develop something in terms of its form. And of course we know you can't separate form from materials and certain plastics won't do well for certain shapes. Plastic doesn't actually do very well if you want to do thin, thin, thin, flat surfaces. You can't disconnect material from the form. And you can't disconnect the form from the component that goes inside.*
+> *“The drive each time was to develop something in terms of its form. And of course we know you can't separate form from materials and certain plastics won't do well for certain shapes. Plastic doesn't actually do very well if you want to do thin, thin, thin, flat surfaces. You can't disconnect material from the form. And you can't disconnect the form from the component that goes inside.*
 
-*One of the things that drives me potty is this idea that you can have a random shape, and then you think let's make this bit in wood and that bit in plastic. And sometimes you see car interior sketches, where, obviously there's form and there's divisions of forms and some lovely colouring in – those boys can do a really good colouring in – and then there are these arbitrary bits of wood. And you think, wood's not that shape. Of course we can make anything any shape, but that's just being bloody minded. You can't make those decisions, you can't read about it, you gain that experience by making.”*
+> *One of the things that drives me potty is this idea that you can have a random shape, and then you think let's make this bit in wood and that bit in plastic. And sometimes you see car interior sketches, where, obviously there's form and there's divisions of forms and some lovely colouring in – those boys can do a really good colouring in – and then there are these arbitrary bits of wood. And you think, wood's not that shape. Of course we can make anything any shape, but that's just being bloody minded. You can't make those decisions, you can't read about it, you gain that experience by making.”*
 
 [- Jony Ive](http://www.dezeen.com/2014/11/13/design-education-tragic-says-jonathan-ive-apple/)
 
