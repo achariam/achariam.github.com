@@ -5,15 +5,13 @@ date:   2014-01-25 01:09:40
 categories: writing
 ---
 
-A personal story and guide into the world of making objects.
-
-The right mindset to approach prototyping. My first foray into hardware prototyping. Advanced reading and manufacturing.
+What follows is a story about my first experience creating a physical object with a combination of hobbyist electronics and traditional materials found in a typical workshop. I discuss my mindset, approach and provide some helpful links along the way.
 
 ## A Tangible Need
 
 Living and creating in a digital world for a long time makes me want to make something tangible. This is not a [sentiment that I alone feel](https://news.layervault.com/stories/32903-hey-dn-lets-make-something-tangible). Something to hold and admire not a series of zeros and ones that might not be wiped out with an ill advised placement of a strong neodymium magnet.
 
-There is a certain sense of satisfaction that comes from creating a finished physical object. That being said, I wrote this story with the intent of chronicling that journey and hopefully provide some assistance to those interested in following a similar path.
+There is a certain sense of satisfaction that comes from creating a finished physical object. That being said, I wrote this story with the intent of chronicling that journey and hopefully provide some assistance to those interested in starting a similar path that might seem daunting.
 
 Almost two summers ago, I had the distinct honor of being a part of a pilot program intended to provide mentorship to children as a part of the [Maker Education Initiative](http://makered.org/makercorps/). The site I happened to chose was the beautiful [Makerspace](http://makerspace.nysci.org) in the New York Hall of Science out in Queens, NY. 
 
@@ -64,9 +62,7 @@ Jony Ive, talks about learning by making as well:
 
 ## The Build
 
-There is no one definite way to build out an idea. Whenever I try to turn an idea into a prototype I try base the materials I need on [first principles](https://www.youtube.com/watch?v=NV3sBlRgzTI). Another trick I gleaned from Elon Musk, who employs this mental model to great effect.
-
-I didn’t have much time to put together a prototype so for the first prototype I wanted to assemble something relatively quickly and easily. There is a host of websites to get electronics and I chose [Adafruit](www.adafruit.com) for the close proximity of their warehouses to the museum. 
+There is no one definite way to build out an idea. I didn’t have much time to put together a prototype so for the first prototype I wanted to assemble something relatively quickly and easily. There is a host of websites to get electronics and I chose [Adafruit](www.adafruit.com) for the close proximity of their warehouses to the museum. 
 
 Since I  had a small stipend and a simple idea my parts list was relatively sparse. We also had access to a series of basic electronics that included, soldering setups, Arduinos and other prototyping gear. 
 
@@ -84,7 +80,7 @@ Once I had a basic python script written controlling the LEDs, things were start
 
 It is not impossible, following the dev blogs of small indie startups gets you a lot of auxiliary information. IoT objects like the Lockitron, google glass, Pebble all started out on hobbyist boards before being designed for a manufacture ready prototype. I was aware of all these and doing active research on a second version of the cube while building this first one. 
 
-For my demo I ended up running a self contained twisted python web server on the PI so I could remotely control the cube over the Local Network. This allowed me to create and serve a local web page that did ran three functions. The rainbow strand test, a white remote controlled light switch, and softly glowing notification mode for checking my e-mail.
+For my demo I ended up running a self contained twisted python web server on the PI so I could remotely control the cube over the Local Network. This allowed me to create and serve a local web page that ran three functions. The rainbow strand test, a white remote controlled light switch, and softly glowing notification mode for checking my e-mail.
 
 Once the software was established, came the job of forming the electronics I had into a cube. The way I built it had some severe limitations due to the size of the raspberry pi board and the way the LED strips were manufactured.
 
@@ -92,7 +88,7 @@ To enclose the board I got 3D printed from ABA plastic a mounting structure for 
 
 Creating the mounting structure for the 5 LED walls proved most challenging and I am still not quite happy with it. I ended up 3D printing another harness I found atop the current raspberry pi to hold a wooden dowel that would support a laser cut piece of wood holding the top face of the LEDs. Sugru, a fast drying putty like adhesive, was used to quickly mount this top plate after failing several times with glue.
 
-Once this was done, the cube was almost complete. All was left was securing the other acrylic shell to the base temporarily. The final out come of the cube was almost entirely different than I had first imagined. But just like software prototypes are iterative and the next version can always be refactored to be better. I am unhappy with a lot of things, but I also learned a ton about the next version I wanted to create.
+Once this was done, the cube was almost complete. All that was left was securing the other acrylic shell to the base temporarily. The finished cube was almost entirely different than I had first imagined. But just like software prototypes are iterative and the next version can always be refactored to be better. I am unhappy with a lot of things, but I also learned a ton about the next version I wanted to create.
 
 ## Validating Ideas
 
@@ -107,6 +103,8 @@ Along the way I’ve collected a bunch links that helped fill in the gaps. I’v
 Lockitron
 Raspberry Pi Controlled AC Unit
 
+Whenever I try to turn an idea into a prototype I try base the materials I need on [first principles](https://www.youtube.com/watch?v=NV3sBlRgzTI). Another trick I gleaned from Elon Musk, who employs this mental model to great effect.
+
 ## Advanced prototyping and further reading
 
 Bunny
@@ -114,4 +112,4 @@ AliBaba
 Wireless Standards
 Manufacturing considerations
 
-
+http://atomicdelights.com
