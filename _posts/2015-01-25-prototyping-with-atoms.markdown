@@ -62,7 +62,7 @@ Jony Ive, talks about learning by making as well:
 
 ## The Build
 
-There is no one definite way to build out an idea. I didn’t have much time to put together a prototype so for the first prototype I wanted to assemble something relatively quickly and easily. There is a host of websites to get electronics and I chose [Adafruit](www.adafruit.com) for the close proximity of their warehouses to the museum. 
+Prototyping exists to prove an idea, there is no one definite way to build this idea out. I didn’t have much time to put together a prototype so for the first prototype I wanted to assemble something relatively quickly and easily. There is a host of websites to get electronics and I chose [Adafruit](www.adafruit.com) for the close proximity of their warehouses to the museum. 
 
 Since I  had a small stipend and a simple idea my parts list was relatively sparse. We also had access to a series of basic electronics that included, soldering setups, Arduinos and other prototyping gear. 
 
