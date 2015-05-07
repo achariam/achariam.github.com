@@ -5,6 +5,7 @@ html,
   font-family: $font;
   font-size: $base-font-size;
   line-height: $baseline-unitless;
+  font-weight: $font-weight;
   -moz-text-size-adjust: none;
   -ms-text-size-adjust: none;
   -webkit-text-size-adjust: none;
@@ -14,8 +15,8 @@ html,
   font-kerning: normal;
 
   background-color: $background-color;
-  color: $slate;
-
+  color: $font-color;
+  
   @media (max-width: 860px) {
     font-size: $base-font-size*.9;
   }

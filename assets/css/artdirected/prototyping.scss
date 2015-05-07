@@ -1,0 +1,295 @@
+---
+# A Tangible Need: Basic Hardware Prototyping - April 2015 
+---
+
+//Type
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url(http://fonts.gstatic.com/s/lato/v11/5FbdueAKJ1eeO4CsvGhNRevvDin1pK8aKteLpeZ5c0A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v11/0DeoTBMnW4sOpD0Zb8OQSALUuEpTyoUstqEm5AMlJo4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/1EqTbJWOZQBfhZ0e3RL9uvesZW2xOQ-xsNqO47m55DA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(http://fonts.gstatic.com/s/lato/v11/MZ1aViPqjfvZwVD_tzjjkwLUuEpTyoUstqEm5AMlJo4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 100;
+  src: local('Lato Hairline Italic'), local('Lato-HairlineItalic'), url(http://fonts.gstatic.com/s/lato/v11/gc5ZVKiLNkRdGlU3GaSVBXYhjbSpvc47ee6xR_80Hnw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(http://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivCZ2oysoEQEeKwjgmXLRnTc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(http://fonts.gstatic.com/s/lato/v11/61V2bQZoWB5DkWAUJStypevvDin1pK8aKteLpeZ5c0A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(http://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYECZ2oysoEQEeKwjgmXLRnTc.ttf) format('truetype');
+}
+
+//Type Variables
+$base-font-size: 120%;
+$baseline-unitless: 32/(16*($base-font-size/100%));
+$baseline: $baseline-unitless * 1rem;
+$font-name: "Lato";
+$font: $font-name, Verdana, serif;
+$font-weight: 300;
+
+//Color Variables
+$background-color: #0B75BC;
+$font-color: rgba(255, 255, 255, 0.9);
+
+@import "base";
+@import "reset";
+@import "grid";
+
+//Main
+
+%ease {
+	-webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+%link {
+  color: $font-color;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom-color: rgba(255, 255, 255, 0.4);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+
+  &:hover {
+    color: #0B75BC;
+    background: #fff;
+    text-decoration: none;
+    @extend %ease;
+  }
+}
+
+a, a:visited {
+  @extend %link;
+}
+
+
+h1{
+ margin-top: 60px;
+ font-weight: 100;
+ font-size: 3.4rem;
+ line-height: 2rem;
+ text-transform: uppercase;
+ text-align: right;
+}
+
+h2{
+ font-weight: 300;
+ font-size: 110%;
+ text-align: right;
+}
+
+h3{
+ font-weight: 400;
+ font-size: 90%;
+ text-transform: uppercase;
+ text-align: left;
+}
+
+
+hr {
+    border: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+blockquote {
+	  padding: 0 $baseline;	
+	  margin: 20px 0;
+	  border-left: 1px solid rgba(144, 246, 233, .7);
+	  color: rgba(255, 255, 255, 0.7);
+}
+
+figure{
+	margin: 20px 0 0 0;
+}
+
+figcaption{
+	font-weight: 400;
+	font-size: .75em;
+	color: rgba(255, 255, 255, 0.5);
+	padding: 0 0 20px 0;
+	text-align: right;
+}
+
+.videoframe { 
+  position: relative; 
+  padding-bottom: 56.25%; 
+  height: 0; overflow: hidden; 
+  max-width: 100%; 
+} 
+
+.videoframe iframe, 
+.videoframe object, 
+.videoframe embed { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+}
+
+.indice{
+	text-align: left;
+	margin: 0 0 20px 0;
+	line-height: 3rem;
+}
+
+.prototyping {
+   	//background: linear-gradient(-70deg, #263F84, #3972FE);
+    background: #155EDB;
+}
+
+.intro{
+	font-size: 1.9rem;
+	line-height: 2.5rem;
+	font-weight: 300;
+}
+
+.buffer-v{
+	margin: 75px 0;
+}
+
+.buffer-t{
+  margin: 75px 0 0 0;
+}
+
+.buffer-b{
+  margin: 0 0 75px 0;
+}
+
+
+//Cube
+
+
+.cube {
+  -webkit-transform-style: preserve-3d;
+  -webkit-animation: spin 100s infinite ease-out;
+  width: 250px;
+  height: 250px;
+  margin: 100px 0px 130px 75px;
+}
+
+.cube div:hover{
+	background: #fff;
+	opacity: .5;
+	@extend %ease;
+}
+
+.cube div {
+   width: 250px;
+   height: 250px;
+   line-height: 100px;
+   text-align: center;
+   box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1.0);
+   position: absolute;
+}
+
+.cube div.top {
+  -webkit-transform: rotateX(90deg); 
+  -webkit-transform-style: preserve-3d;
+  -webkit-animation: slidetop 7s infinite ease-in-out;
+  -webkit-animation-direction: alternate;
+}
+
+.cube div.right {
+  -webkit-transform: rotateY(90deg);
+  -webkit-transform-style: preserve-3d;
+  -webkit-animation: slideright 2s infinite ease-in-out;
+  -webkit-animation-direction: alternate;
+}
+
+.cube div.bottom {
+  -webkit-transform: rotateX(-90deg); 
+  margin-top: 125px;
+}
+
+.cube div.left {
+  -webkit-transform: rotateY(-90deg); 
+  -webkit-transform-style: preserve-3d;
+  -webkit-animation: slideleft 5s infinite ease-in-out;
+  -webkit-animation-direction: alternate;
+}
+
+.cube div.front {
+  -webkit-transform-style: preserve-3d;
+  -webkit-animation: slidefront 4s infinite ease-in-out;
+  -webkit-animation-direction: alternate;
+}
+
+.cube div.back {
+  -webkit-transform-style: preserve-3d;
+  -webkit-animation: slideback 3s infinite ease-in-out;
+  -webkit-animation-direction: alternate;
+}
+
+
+@-webkit-keyframes spin {
+  0% {-webkit-transform: rotateX(-20deg) rotateY(20deg);}
+  100% {-webkit-transform: rotateX(-20deg) rotateY(740deg);}
+}
+
+@-webkit-keyframes slidetop {
+  0% {   margin-top: -125px; }
+  100% { margin-top: -200px; }
+}
+
+@-webkit-keyframes slideright {
+  0% {   margin-left: 125px; }
+  100% { margin-left: 200px; }
+}
+
+@-webkit-keyframes slideleft {
+  0% {   margin-left: -125px; }
+  100% { margin-left: -200px; }
+}
+
+@-webkit-keyframes slidefront {
+  0% {   -webkit-transform: translateZ(125px); }
+  100% { -webkit-transform: translateZ(200px); }
+}
+
+@-webkit-keyframes slideback {
+  0% {   -webkit-transform: translateZ(-125px) rotateX(180deg); }
+  100% { -webkit-transform: translateZ(-200px) rotateX(180deg); }
+}
+
+
+
+
+

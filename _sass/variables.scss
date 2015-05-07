@@ -5,10 +5,11 @@ $baseline: $baseline-unitless * 1rem;
 
 $font-name: "Libre Baskerville";
 $font: $font-name, Georgia, serif;
+$font-weight: regular;
 
 
 //Colors
-$background-color: #fff;
+
 
 $ink: #212D3C;
 $slate: #3A414A;
@@ -16,5 +17,8 @@ $lightsky: #909EB9;
 $skygrey: #7E8BA4;
 $smoke: #E6EAF2;
 $cherry: #df4c61;
+
+$background-color: #fff;
+$font-color: $slate;
 
 
