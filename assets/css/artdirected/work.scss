@@ -297,6 +297,12 @@ figcaption{
   margin: 0 0 20px 0;
 }
 
+#guy{
+  width:280px;
+  height: auto;
+  margin: 0 auto 30px auto;
+}
+
 .digitalwork{
   background: #EBEDF0;
   padding: 125px 0;
@@ -378,4 +384,41 @@ figcaption{
       position: absolute;  
   }
 }
+
+  @media (max-width: 860px) {
+    h1{
+      font-size: 2.2rem;
+    }
+
+    .spacer-b {
+      margin: 0 0 60px 0;
+    }
+
+    .spacer-t{
+      margin: 60px 0 0 0;
+    }
+
+    .title{
+      padding: 0 0 0 0;
+    }
+
+    .description{
+      padding: 0 0 0 0;
+    }
+
+    .banner img{
+      width: 450px;
+      height: auto;
+      margin: 0 0 60px 0;
+    }
+
+    .navigation a{
+      font-size: 90%;
+    }
+
+  }
+
+  @media (max-width: 500px) {
+
+  }
 
