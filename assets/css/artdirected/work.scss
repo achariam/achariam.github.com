@@ -388,6 +388,7 @@ figcaption{
   @media (max-width: 860px) {
     h1{
       font-size: 2.2rem;
+      margin: 40px 0;
     }
 
     .spacer-b {
@@ -424,6 +425,11 @@ figcaption{
 
     #guy {
       width: 180px;
+    }
+
+    #dnlogo{
+      width: 70px;
+      height: 70px;
     }
   }
 
