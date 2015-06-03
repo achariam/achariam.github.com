@@ -10,3 +10,18 @@
 	margin: $baseline*2 0;
 }
 
+a{
+	text-decoration: none;
+	color: #222328;
+	font-weight: normal;
+	border-bottom: 0.063em dotted #dedede;
+}
+
+a:hover{
+	color:#FF828F;
+	-webkit-transition: all .3s ease-in-out;
+}
+
+.banner a{
+	border: none;
+}
