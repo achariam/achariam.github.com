@@ -8,149 +8,149 @@
         <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-250.000000, -72.000000)">
             <g id="dots" sketch:type="MSLayerGroup" transform="translate(250.000000, 72.000000)">
                 <rect id="Rectangle-97" opacity="0.9" fill-opacity="0.9" fill="#5537D3" sketch:type="MSShapeGroup" x="0" y="0" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="2s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="2s" repeatCount="10" /></rect>
                 <rect id="Rectangle-38" fill-opacity="0.7" fill="#6449D4" sketch:type="MSShapeGroup" x="36.8231047" y="0" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="7s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="7s" repeatCount="10" /></rect>
                 <rect id="Rectangle-39" fill-opacity="0.5" fill="#6449D4" sketch:type="MSShapeGroup" x="73.6462094" y="0" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="3s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="3s" repeatCount="10" /></rect>
                 <rect id="Rectangle-40" fill-opacity="0.3" fill="#6449D4" sketch:type="MSShapeGroup" x="110.469314" y="0" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="4s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="4s" repeatCount="10" /></rect>
                 <rect id="Rectangle-41" opacity="0.901935634" fill-opacity="0.9" fill="#76D16A" sketch:type="MSShapeGroup" transform="translate(150.000000, 2.705761) scale(1, -1) translate(-150.000000, -2.705761) " x="147.292419" y="0" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="2s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="2s" repeatCount="10" /></rect>
                 <rect id="Rectangle-42" fill-opacity="0.7" fill="#81D376" sketch:type="MSShapeGroup" transform="translate(186.823105, 2.705761) scale(1, -1) translate(-186.823105, -2.705761) " x="184.115523" y="0" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="8s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="8s" repeatCount="10" /></rect>
                 <rect id="Rectangle-43" fill-opacity="0.5" fill="#81D376" sketch:type="MSShapeGroup" transform="translate(223.646209, 2.705761) scale(1, -1) translate(-223.646209, -2.705761) " x="220.938628" y="0" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="9s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="9s" repeatCount="10" /></rect>
                 <rect id="Rectangle-44" fill-opacity="0.3" fill="#81D376" sketch:type="MSShapeGroup" transform="translate(260.469314, 2.705761) scale(1, -1) translate(-260.469314, -2.705761) " x="257.761733" y="0" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="3s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="3s" repeatCount="10" /></rect>
                 <rect id="Rectangle-45" opacity="0.9" fill-opacity="0.9" fill="#5BD2FA" sketch:type="MSShapeGroup" transform="translate(297.292419, 2.705761) scale(1, -1) translate(-297.292419, -2.705761) " x="294.584838" y="0" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="4s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="4s" repeatCount="10" /></rect>
                 <rect id="Rectangle-46" fill-opacity="0.7" fill="#69D3F8" sketch:type="MSShapeGroup" transform="translate(2.707581, 39.504115) scale(1, -1) translate(-2.707581, -39.504115) " x="0" y="36.7983539" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="6s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="6s" repeatCount="10" /></rect>
                 <rect id="Rectangle-47" fill-opacity="0.5" fill="#69D3F8" sketch:type="MSShapeGroup" transform="translate(39.530686, 39.504115) scale(1, -1) translate(-39.530686, -39.504115) " x="36.8231047" y="36.7983539" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="5s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="5s" repeatCount="10" /></rect>
                 <rect id="Rectangle-48" fill-opacity="0.3" fill="#69D3F8" sketch:type="MSShapeGroup" transform="translate(76.353791, 39.504115) scale(1, -1) translate(-76.353791, -39.504115) " x="73.6462094" y="36.7983539" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="7s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="7s" repeatCount="10" /></rect>
                 <rect id="Rectangle-49" opacity="0.9" fill="#BE73FE" sketch:type="MSShapeGroup" x="110.469314" y="36.7983539" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="2s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="2s" repeatCount="10" /></rect>
                 <rect id="Rectangle-50" fill-opacity="0.7" fill="#BE73FD" sketch:type="MSShapeGroup" x="147.292419" y="36.7983539" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="7s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="7s" repeatCount="10" /></rect>
                 <rect id="Rectangle-51" fill-opacity="0.5" fill="#BE73FD" sketch:type="MSShapeGroup" x="184.115523" y="36.7983539" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="2s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="2s" repeatCount="10" /></rect>
                 <rect id="Rectangle-52" fill-opacity="0.3" fill="#BE73FD" sketch:type="MSShapeGroup" x="220.938628" y="36.7983539" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="3s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="3s" repeatCount="10" /></rect>
                 <rect id="Rectangle-37" opacity="0.9" fill="#00A29B" sketch:type="MSShapeGroup" transform="translate(260.469314, 39.504115) scale(-1, -1) translate(-260.469314, -39.504115) " x="257.761733" y="36.7983539" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="1s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="1s" repeatCount="10" /></rect>
                 <rect id="Rectangle-26" opacity="0.7" fill="#00A29B" sketch:type="MSShapeGroup" transform="translate(297.292419, 39.504115) scale(-1, -1) translate(-297.292419, -39.504115) " x="294.584838" y="36.7983539" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="6s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="6s" repeatCount="10" /></rect>
                 <rect id="Rectangle-27" opacity="0.5" fill="#00A29B" sketch:type="MSShapeGroup" transform="translate(2.707581, 76.302469) scale(-1, -1) translate(-2.707581, -76.302469) " x="0" y="73.5967078" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="2s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="2s" repeatCount="10" /></rect>
                 <rect id="Rectangle-28" opacity="0.3" fill="#00A29B" sketch:type="MSShapeGroup" transform="translate(39.530686, 76.302469) scale(-1, -1) translate(-39.530686, -76.302469) " x="36.8231047" y="73.5967078" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="8s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="8s" repeatCount="10" /></rect>
                 <rect id="Rectangle-29" opacity="0.901935634" fill="#0595D1" sketch:type="MSShapeGroup" transform="translate(76.353791, 76.302469) scale(-1, -1) translate(-76.353791, -76.302469) " x="73.6462094" y="73.5967078" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="1s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="1s" repeatCount="10" /></rect>
                 <rect id="Rectangle-30" opacity="0.7" fill="#0595D1" sketch:type="MSShapeGroup" transform="translate(113.176895, 76.302469) scale(-1, -1) translate(-113.176895, -76.302469) " x="110.469314" y="73.5967078" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="3s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="3s" repeatCount="10" /></rect>
                 <rect id="Rectangle-31" opacity="0.5" fill="#0595D1" sketch:type="MSShapeGroup" transform="translate(150.000000, 76.302469) scale(-1, -1) translate(-150.000000, -76.302469) " x="147.292419" y="73.5967078" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="2s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="2s" repeatCount="10" /></rect>
                 <rect id="Rectangle-32" opacity="0.3" fill="#0595D1" sketch:type="MSShapeGroup" transform="translate(186.823105, 76.302469) scale(-1, -1) translate(-186.823105, -76.302469) " x="184.115523" y="73.5967078" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="1s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="1s" repeatCount="10" /></rect>
                 <rect id="Rectangle-33" opacity="0.9" fill="#00ADC6" sketch:type="MSShapeGroup" x="220.938628" y="73.5967078" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="4s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="4s" repeatCount="10" /></rect>
                 <rect id="Rectangle-34" opacity="0.7" fill="#00ADC6" sketch:type="MSShapeGroup" x="257.761733" y="73.5967078" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="4s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="4s" repeatCount="10" /></rect>
                 <rect id="Rectangle-35" opacity="0.5" fill="#00ADC6" sketch:type="MSShapeGroup" x="294.584838" y="73.5967078" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="7s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="7s" repeatCount="10" /></rect>
                 <rect id="Rectangle-36" opacity="0.3" fill="#00ADC6" sketch:type="MSShapeGroup" x="0" y="110.395062" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="6s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="6s" repeatCount="10" /></rect>
                 <rect id="Rectangle-82" opacity="0.9" fill="#0B75BC" sketch:type="MSShapeGroup" transform="translate(39.530686, 113.100823) scale(1, -1) translate(-39.530686, -113.100823) " x="36.8231047" y="110.395062" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="3s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="3s" repeatCount="10" /></rect>
                 <rect id="Rectangle-71" opacity="0.7" fill="#0B75BC" sketch:type="MSShapeGroup" transform="translate(76.353791, 113.100823) scale(1, -1) translate(-76.353791, -113.100823) " x="73.6462094" y="110.395062" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="7s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="7s" repeatCount="10" /></rect>
                 <rect id="Rectangle-72" opacity="0.5" fill="#0B75BC" sketch:type="MSShapeGroup" transform="translate(113.176895, 113.100823) scale(1, -1) translate(-113.176895, -113.100823) " x="110.469314" y="110.395062" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="2s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="2s" repeatCount="10" /></rect>
                 <rect id="Rectangle-73" opacity="0.3" fill="#0B75BC" sketch:type="MSShapeGroup" transform="translate(150.000000, 113.100823) scale(1, -1) translate(-150.000000, -113.100823) " x="147.292419" y="110.395062" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="3s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="3s" repeatCount="10" /></rect>
                 <rect id="Rectangle-74" opacity="0.901935634" fill="#313491" sketch:type="MSShapeGroup" transform="translate(186.823105, 113.100823) scale(1, -1) translate(-186.823105, -113.100823) " x="184.115523" y="110.395062" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="2s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="2s" repeatCount="10" /></rect>
                 <rect id="Rectangle-75" opacity="0.7" fill="#313491" sketch:type="MSShapeGroup" transform="translate(223.646209, 113.100823) scale(1, -1) translate(-223.646209, -113.100823) " x="220.938628" y="110.395062" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="8s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="8s" repeatCount="10" /></rect>
                 <rect id="Rectangle-76" opacity="0.5" fill="#313491" sketch:type="MSShapeGroup" transform="translate(260.469314, 113.100823) scale(1, -1) translate(-260.469314, -113.100823) " x="257.761733" y="110.395062" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="3s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="3s" repeatCount="10" /></rect>
                 <rect id="Rectangle-77" opacity="0.3" fill="#313491" sketch:type="MSShapeGroup" transform="translate(297.292419, 113.100823) scale(1, -1) translate(-297.292419, -113.100823) " x="294.584838" y="110.395062" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="4s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="4s" repeatCount="10" /></rect>
                 <rect id="Rectangle-78" opacity="0.9" fill="#1360AD" sketch:type="MSShapeGroup" x="0" y="147.193416" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="7s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="7s" repeatCount="10" /></rect>
                 <rect id="Rectangle-79" opacity="0.7" fill="#1360AD" sketch:type="MSShapeGroup" x="36.8231047" y="147.193416" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="2s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="2s" repeatCount="10" /></rect>
                 <rect id="Rectangle-80" opacity="0.5" fill="#1360AD" sketch:type="MSShapeGroup" x="73.6462094" y="147.193416" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="6s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="6s" repeatCount="10" /></rect>
                 <rect id="Rectangle-81" opacity="0.3" fill="#1360AD" sketch:type="MSShapeGroup" x="110.469314" y="147.193416" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="3s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="3s" repeatCount="10" /></rect>
                 <rect id="Rectangle-86" opacity="0.9" fill="#EB1762" sketch:type="MSShapeGroup" transform="translate(150.000000, 149.899177) scale(1, -1) translate(-150.000000, -149.899177) " x="147.292419" y="147.193416" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="1s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="1s" repeatCount="10" /></rect>
                 <rect id="Rectangle-87" opacity="0.7" fill="#EB1762" sketch:type="MSShapeGroup" transform="translate(186.823105, 149.899177) scale(1, -1) translate(-186.823105, -149.899177) " x="184.115523" y="147.193416" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="6s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="6s" repeatCount="10" /></rect>
                 <rect id="Rectangle-88" opacity="0.5" fill="#EB1762" sketch:type="MSShapeGroup" transform="translate(223.646209, 149.899177) scale(1, -1) translate(-223.646209, -149.899177) " x="220.938628" y="147.193416" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="3s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="3s" repeatCount="10" /></rect>
                 <rect id="Rectangle-89" opacity="0.3" fill="#EB1762" sketch:type="MSShapeGroup" transform="translate(260.469314, 149.899177) scale(1, -1) translate(-260.469314, -149.899177) " x="257.761733" y="147.193416" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="2s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="2s" repeatCount="10" /></rect>
                 <rect id="Rectangle-90" opacity="0.9" fill="#BB188E" sketch:type="MSShapeGroup" transform="translate(297.292419, 149.899177) scale(1, -1) translate(-297.292419, -149.899177) " x="294.584838" y="147.193416" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="6s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="6s" repeatCount="10" /></rect>
                 <rect id="Rectangle-91" opacity="0.7" fill="#BB188E" sketch:type="MSShapeGroup" transform="translate(2.707581, 186.697531) scale(1, -1) translate(-2.707581, -186.697531) " x="0" y="183.99177" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="5s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="5s" repeatCount="10" /></rect>
                 <rect id="Rectangle-92" opacity="0.5" fill="#BB188E" sketch:type="MSShapeGroup" transform="translate(39.530686, 186.697531) scale(1, -1) translate(-39.530686, -186.697531) " x="36.8231047" y="183.99177" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="4s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="4s" repeatCount="10" /></rect>
                 <rect id="Rectangle-93" opacity="0.3" fill="#BB188E" sketch:type="MSShapeGroup" transform="translate(76.353791, 186.697531) scale(1, -1) translate(-76.353791, -186.697531) " x="73.6462094" y="183.99177" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="2s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="2s" repeatCount="10" /></rect>
                 <rect id="Rectangle-53" opacity="0.9" fill-opacity="0.8" fill="#FFAD51" sketch:type="MSShapeGroup" x="110.469314" y="183.99177" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="8s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="8s" repeatCount="10" /></rect>
                 <rect id="Rectangle-54" fill-opacity="0.7" fill="#FBBA71" sketch:type="MSShapeGroup" x="147.292419" y="183.99177" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="7s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="7s" repeatCount="10" /></rect>
                 <rect id="Rectangle-55" fill-opacity="0.5" fill="#FBBA71" sketch:type="MSShapeGroup" x="184.115523" y="183.99177" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="4s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="4s" repeatCount="10" /></rect>
                 <rect id="Rectangle-56" fill-opacity="0.3" fill="#FBBA71" sketch:type="MSShapeGroup" x="220.938628" y="183.99177" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="5s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="5s" repeatCount="10" /></rect>
                 <rect id="Rectangle-57" opacity="0.9" fill-opacity="0.9" fill="#FFD86B" sketch:type="MSShapeGroup" transform="translate(260.469314, 186.697531) scale(1, -1) translate(-260.469314, -186.697531) " x="257.761733" y="183.99177" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="2s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="2s" repeatCount="10" /></rect>
                 <rect id="Rectangle-58" fill-opacity="0.7" fill="#FFD86B" sketch:type="MSShapeGroup" transform="translate(297.292419, 186.697531) scale(1, -1) translate(-297.292419, -186.697531) " x="294.584838" y="183.99177" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="3s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="3s" repeatCount="10" /></rect>
                 <rect id="Rectangle-59" fill-opacity="0.5" fill="#FFD86B" sketch:type="MSShapeGroup" transform="translate(2.707581, 223.495885) scale(1, -1) translate(-2.707581, -223.495885) " x="0" y="220.790123" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="7s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="7s" repeatCount="10" /></rect>
                 <rect id="Rectangle-60" fill-opacity="0.3" fill="#FFD86B" sketch:type="MSShapeGroup" transform="translate(39.530686, 223.495885) scale(1, -1) translate(-39.530686, -223.495885) " x="36.8231047" y="220.790123" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="4s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="4s" repeatCount="10" /></rect>
                 <rect id="Rectangle-61" opacity="0.901935634" fill-opacity="0.9" fill="#2791BA" sketch:type="MSShapeGroup" transform="translate(76.353791, 223.495885) scale(1, -1) translate(-76.353791, -223.495885) " x="73.6462094" y="220.790123" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="3s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="3s" repeatCount="10" /></rect>
                 <rect id="Rectangle-62" fill-opacity="0.7" fill="#2791BA" sketch:type="MSShapeGroup" transform="translate(113.176895, 223.495885) scale(1, -1) translate(-113.176895, -223.495885) " x="110.469314" y="220.790123" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="7s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="7s" repeatCount="10" /></rect>
                 <rect id="Rectangle-63" fill-opacity="0.5" fill="#2791BA" sketch:type="MSShapeGroup" transform="translate(150.000000, 223.495885) scale(1, -1) translate(-150.000000, -223.495885) " x="147.292419" y="220.790123" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="8s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="8s" repeatCount="10" /></rect>
                 <rect id="Rectangle-64" fill-opacity="0.3" fill="#2791BA" sketch:type="MSShapeGroup" transform="translate(186.823105, 223.495885) scale(1, -1) translate(-186.823105, -223.495885) " x="184.115523" y="220.790123" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="4s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="4s" repeatCount="10" /></rect>
                 <rect id="Rectangle-65" opacity="0.9" fill-opacity="0.9" fill="#82C3B6" sketch:type="MSShapeGroup" x="220.938628" y="220.790123" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="3s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="3s" repeatCount="10" /></rect>
                 <rect id="Rectangle-66" fill-opacity="0.7" fill="#82C3B6" sketch:type="MSShapeGroup" x="257.761733" y="220.790123" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="6s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="6s" repeatCount="10" /></rect>
                 <rect id="Rectangle-67" fill-opacity="0.5" fill="#82C3B6" sketch:type="MSShapeGroup" x="294.584838" y="220.790123" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="4s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="4s" repeatCount="10" /></rect>
                 <rect id="Rectangle-68" fill-opacity="0.3" fill="#82C3B6" sketch:type="MSShapeGroup" x="0" y="257.588477" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="7s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="7s" repeatCount="10" /></rect>
                 <rect id="Rectangle-69" opacity="0.901935634" fill-opacity="0.9" fill="#F84C62" sketch:type="MSShapeGroup" transform="translate(39.530686, 260.294239) scale(1, -1) translate(-39.530686, -260.294239) " x="36.8231047" y="257.588477" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="4s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="4s" repeatCount="10" /></rect>
                 <rect id="Rectangle-70" fill-opacity="0.7" fill="#FF5369" sketch:type="MSShapeGroup" transform="translate(76.353791, 260.294239) scale(1, -1) translate(-76.353791, -260.294239) " x="73.6462094" y="257.588477" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="2s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="2s" repeatCount="10" /></rect>
                 <rect id="Rectangle-95" fill-opacity="0.5" fill="#FF5369" sketch:type="MSShapeGroup" transform="translate(113.176895, 260.294239) scale(1, -1) translate(-113.176895, -260.294239) " x="110.469314" y="257.588477" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="6s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="6s" repeatCount="10" /></rect>
                 <rect id="Rectangle-96" fill-opacity="0.3" fill="#FF5369" sketch:type="MSShapeGroup" transform="translate(150.000000, 260.294239) scale(1, -1) translate(-150.000000, -260.294239) " x="147.292419" y="257.588477" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="5s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="5s" repeatCount="10" /></rect>
                 <rect id="Rectangle-85" opacity="0.3" fill="#7F1E8C" sketch:type="MSShapeGroup" transform="translate(186.823105, 260.294239) scale(1, -1) translate(-186.823105, -260.294239) " x="184.115523" y="257.588477" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="3s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="3s" repeatCount="10" /></rect>
                 <rect id="Rectangle-84" opacity="0.5" fill="#7F1E8C" sketch:type="MSShapeGroup" transform="translate(223.646209, 260.294239) scale(1, -1) translate(-223.646209, -260.294239) " x="220.938628" y="257.588477" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="4s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="4s" repeatCount="10" /></rect>
                 <rect id="Rectangle-83" opacity="0.7" fill="#7F1E8C" sketch:type="MSShapeGroup" transform="translate(260.469314, 260.294239) scale(1, -1) translate(-260.469314, -260.294239) " x="257.761733" y="257.588477" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="7s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="7s" repeatCount="10" /></rect>
                 <rect id="Rectangle-94" opacity="0.901935634" fill="#7F1E8C" sketch:type="MSShapeGroup" transform="translate(297.292419, 260.294239) scale(1, -1) translate(-297.292419, -260.294239) " x="294.584838" y="257.588477" width="5.41516245" height="5.41152263" rx="194"><animate attributeType="CSS" attributeName="opacity" 
-           from="1" to=".3" dur="4s" repeatCount="indefinite" /></rect>
+           from="1" to=".3" dur="4s" repeatCount="10" /></rect>
             </g>
         </g>
     </g>
