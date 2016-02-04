@@ -4,11 +4,6 @@ body {
   padding: $baseline;
 }
 
-.wrap {
-  max-width: 50rem;
-  margin: 0 auto;
-}
-
 .buffer{
  @extend %buffer;
 }
