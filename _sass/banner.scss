@@ -1,28 +1,14 @@
 /* Banner */
 
 .circle {
-	width: 0.5rem;
-	height: 0.5rem;
-  margin: 0 1.7rem 0 -2.5rem;
-  vertical-align: 1px;
-  display: inline-block;
+	width: 8px;
+	height: 8px;
+  margin: 0 0 1rem 0;
   opacity: 0.9;
   border-radius: 200px;
   background: linear-gradient(150deg, #34a7b7, #4446e8, #cb40e4, #f81d93, #fb5454, #f5b53b, #daff8c, #36ee91, #00afcf);
   background-size: 2000% 300%;
   animation: rainbow 100s ease infinite;
-
-  @media (max-width: 860px) {
-    margin: 0 1.8rem 0 -2.5rem;
-    width: 0.4rem;
-    height: 0.4rem;
-    vertical-align: 3px;
-  }
-
-  @media (max-width: 500px) {
-    width: 0.35rem;
-    height: 0.35rem;
-  }
 }
 
 @keyframes rainbow {
