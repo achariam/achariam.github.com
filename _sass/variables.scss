@@ -3,8 +3,8 @@ $base-font-size: 100%;
 $baseline-unitless: 28/(16*($base-font-size/100%));
 $baseline: $baseline-unitless * 1rem;
 
-$font-name: "Libre Baskerville";
-$font: $font-name, Georgia, serif;
+$font-name: "Source Sans Pro";
+$font: $font-name, Helvetica Neue, sans-serif;
 $font-weight: regular;
 
 

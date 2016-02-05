@@ -1,27 +1,18 @@
-/* Content */
+/* Index/Writing */
 
-.essay_list{
-	 padding-left: 0;
-	 list-style: none;
-	 text-align: center;
+.index {
+	margin: 0 auto;
+	padding: $baseline*2;
 }
 
-.placeholder{
-	margin: $baseline*2 0;
+ul {
+	list-style-type: none;
 }
 
-a{
-	text-decoration: none;
-	color: #222328;
-	font-weight: normal;
-	border-bottom: 1px dotted #dedede;
-}
-
-a:hover{
-	color:#FF828F;
-	-webkit-transition: all .3s ease-in-out;
-}
-
-.banner a{
-	border: none;
+hr {
+	margin: 2rem 0 .1rem 0;
+  border: 0;
+  border-bottom: 1px solid $smoke;
+  width: 3rem;
+  display: block;
 }

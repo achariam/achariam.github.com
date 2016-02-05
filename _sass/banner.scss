@@ -1,42 +1,36 @@
 /* Banner */
 
-.circle { 
-	width: 0.8rem;
-	height: 0.8rem;
-  margin: 0 0 $baseline 0;
-  opacity: 0.8;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
+.circle {
+	width: 0.5rem;
+	height: 0.5rem;
+  margin: 0 1.7rem 0 -2.5rem;
+  vertical-align: 1px;
+  display: inline-block;
+  opacity: 0.9;
+  border-radius: 200px;
   background: linear-gradient(150deg, #34a7b7, #4446e8, #cb40e4, #f81d93, #fb5454, #f5b53b, #daff8c, #36ee91, #00afcf);
   background-size: 2000% 300%;
-
--webkit-animation: rainbow 100s ease infinite;
--z-animation: rainbow 100s ease infinite;
--o-animation: rainbow 100s ease infinite;
   animation: rainbow 100s ease infinite;
+
+  @media (max-width: 860px) {
+    margin: 0 1.8rem 0 -2.5rem;
+    width: 0.4rem;
+    height: 0.4rem;
+    vertical-align: 3px;
+  }
+
+  @media (max-width: 500px) {
+    width: 0.35rem;
+    height: 0.35rem;
+  }
 }
 
-@-webkit-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@-moz-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@-o-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@keyframes rainbow { 
+@keyframes rainbow {
     0%{background-position:0% 82%}
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
 }
 
-.site_title {
-  font-size: 1.1rem;
+.site-title {
+  font-size: 1.05rem;
 }
