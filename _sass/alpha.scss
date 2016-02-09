@@ -7,6 +7,12 @@
 
 ul {
 	list-style-type: none;
+	margin: $baseline*2 0;
+
+}
+
+li {
+	margin: 0 0 $baseline 0;
 }
 
 hr {
@@ -15,4 +21,18 @@ hr {
   border-bottom: 1px solid $smoke;
   width: 3rem;
   display: block;
+}
+
+span {
+	display: block;
+	font-weight: 300;
+}
+
+.who a{
+	font-size: .9rem;
+	color: $skygrey;
+
+	&:hover{
+		color: $ink;
+	}
 }

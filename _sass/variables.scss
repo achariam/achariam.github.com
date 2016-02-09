@@ -5,20 +5,18 @@ $baseline: $baseline-unitless * 1rem;
 
 $font-name: "Source Sans Pro";
 $font: $font-name, Helvetica Neue, sans-serif;
-$font-weight: regular;
+$font-weight: 400;
 
 
 //Colors
 
 
 $ink: #212D3C;
-$slate: #3A414A;
-$lightsky: #909EB9;
 $skygrey: #7E8BA4;
 $smoke: #E6EAF2;
 $cherry: #df4c61;
 
 $background-color: #fff;
-$font-color: $slate;
+$font-color: $ink;
 
 

@@ -3,7 +3,7 @@
 .circle {
 	width: 8px;
 	height: 8px;
-  margin: 0 0 1rem 0;
+  margin: 0 0 .5rem 0;
   opacity: 0.9;
   border-radius: 200px;
   background: linear-gradient(150deg, #34a7b7, #4446e8, #cb40e4, #f81d93, #fb5454, #f5b53b, #daff8c, #36ee91, #00afcf);
@@ -15,8 +15,4 @@
     0%{background-position:0% 82%}
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
-}
-
-.site-title {
-  font-size: 1.05rem;
 }

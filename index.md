@@ -3,9 +3,10 @@ title: Writing
 layout: writing
 ---
 
-+ [A Tangible Need](/prototyping) - May 8 2015
++ [Prototyping an ambient notification cube](/prototyping) <span>5.8.2015</span>
 
 -----
 
-+ [@achariam](http://www.twitter.com/achariam)
+[@achariam](http://www.twitter.com/achariam)
+{: .who }
 
