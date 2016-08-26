@@ -4,7 +4,7 @@ $baseline-unitless: 28/(16*($base-font-size/100%));
 $baseline: $baseline-unitless * 1rem;
 
 $font-name: "Source Sans Pro";
-$font: $font-name, Helvetica Neue, sans-serif;
+$font: $font-name, -apple-system, "BlinkMacSystemFont", "SF UI", "Helvetica Neue", sans-serif;
 $font-weight: 400;
 
 
