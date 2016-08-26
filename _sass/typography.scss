@@ -1,21 +1,21 @@
 /* Typography */
 
-h1{
+h1 {
 	font-size: 2.5rem;
 }
-h2{
+h2 {
 	font-size: 1.5rem;
 }
 
-h3{
+h3 {
 	font-size: 1rem;
 }
 
-h4{
-	font-weight: 700;
+h4 {
+	font-weight: 600;
 }
 
-h5{
+h5 {
 	font-weight: 400;
 }
 
@@ -24,9 +24,10 @@ h5{
   color: inherit;
   cursor: pointer;
   text-decoration: none;
+  color: $ink;
 
   &:hover {
-    color: $lightsky;
+    color: $cherry;
     -webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -ms-transition: all .4s ease-in-out;
@@ -37,12 +38,4 @@ h5{
 
 a, a:visited {
   @extend %link;
-}
-
-hr{
-  border: 0;
-  border-bottom: 1px solid $smoke;
-  width: 5rem;
-  margin: $baseline auto;
-  display: block;
 }

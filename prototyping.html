@@ -1,7 +1,6 @@
 ---
 layout: artdirected
 title: A Tangible Need
-in-nav: false
 style: prototyping.css
 class: prototyping
 ---
@@ -62,7 +61,7 @@ class: prototyping
 
 			<p>There is a certain sense of satisfaction that comes from creating a finished physical object. I wrote this story with the intent of chronicling that journey. Hopefully this can provide some assistance to those interested in following a similar path that might seem daunting at first.</p>
 
-			<p>I just recently completed building a major <a href="http://www.gallerywendinorris.com/a.php?view=&event_id=145">hardware project</a> for a client and I felt it might be helpful to write about how I started.</p>
+			<p>I just recently completed building a major <a href="http://gallerywendinorris.com/yorgo-alexopoulos-clouds/">hardware project</a> for a client and I felt it might be helpful to write about how I started.</p>
 
 			<p>Two summers ago, I had the distinct honor of being a part of a pilot program intended to provide mentorship to children as a part of the <a href="http://makered.org/makercorps/">Maker Education Initiative</a>. I ended up being assigned to the beautiful <a href="http://makerspace.nysci.org">Makerspace</a> in the New York Hall of Science out in Queens, NY. </p>
 
@@ -124,7 +123,7 @@ class: prototyping
 
 			<p><a href="http://www.reddit.com/r/IAmA/comments/2rgsan/i_am_elon_musk_ceocto_of_a_rocket_company_ama/cnfre0a">-Elon Musk</a></p>
 
-			<p>If you’re contstantly willing to learn and adapt you can make anything.</p>		
+			<p>If you’re contstantly willing to learn and adapt you can make anything.</p>
 		</div>
 	</div>
 
@@ -136,16 +135,16 @@ class: prototyping
 
 		<div class="seven columns">
 			<p>You will never know everything there is to know about a given subject. The best way to learn is by making. In the physical world especially, you can quickly accrue knowledge through trial and error. </p>
-			
+
 			<p>For a real world example, Adam Savage of Mythbusters demonstrates <a href="https://www.youtube.com/watch?v=-tUHJnl8qPM&amp;index=18&amp;list=PLJtitKU0CAehsdcybehbPFHObmWsKtQcY">this paradigm in all of his videos</a>. Watching him craft a box or a movie prop is a master class in building physical objects.</p>
-			
+
 			<p>Jony Ive, talks about learning by making as well:</p>
-			
+
 			<blockquote>
 			<p><em>“The drive each time was to develop something in terms of its form. And of course we know you can&#39;t separate form from materials and certain plastics won&#39;t do well for certain shapes. Plastic doesn&#39;t actually do very well if you want to do thin, thin, thin, flat surfaces. You can&#39;t disconnect material from the form. And you can&#39;t disconnect the form from the component that goes inside.</em></p>
 			<p><em>One of the things that drives me potty is this idea that you can have a random shape, and then you think let&#39;s make this bit in wood and that bit in plastic. And sometimes you see car interior sketches, where, obviously there&#39;s form and there&#39;s divisions of forms and some lovely colouring in – those boys can do a really good colouring in – and then there are these arbitrary bits of wood. And you think, wood&#39;s not that shape. Of course we can make anything any shape, but that&#39;s just being bloody minded. You can&#39;t make those decisions, you can&#39;t read about it, you gain that experience by making.”</em></p>
 			</blockquote>
-			
+
 			<p><a href="http://www.dezeen.com/2014/11/13/design-education-tragic-says-jonathan-ive-apple/">- Jony Ive</a></p>
 		</div>
 	</div>
@@ -158,7 +157,7 @@ class: prototyping
 
 		<div class="seven columns">
 			<p>Prototyping exists to prove an idea, it's fast & loose just like sketching. There usually is no one definite way to build an idea. I didn’t have much time to put together the cube so for the first build I had to assemble something relatively quickly and easily. There are many places to get electronics and I chose <a href="www.adafruit.com">Adafruit</a> for the close proximity of their warehouses to the museum. </p>
-			
+
 			<p>Since I  had a small stipend and a simple idea my parts list was relatively sparse. As a part of the program, we also had access to a series of basic electronics that included, soldering setups, electronic components and other prototyping gear. </p>
 		</div>
 	</div>
@@ -204,9 +203,9 @@ class: prototyping
 			<p><i>*The parts on this list are merely for reference. You can subsitute as you wish, these were the tools and materials I happened to have available.</i></p>
 
 			<p>If you have no experience with anything electronics related, don’t worry I didn't either. Adafruit and other sites like <a href="https://learn.sparkfun.com">Sparkfun</a> have <a href="https://learn.adafruit.com">comprehensive guides and forums</a> on everything that you could possibly need on getting started. Spend sometime reading through these excellent resources before you purchase anything.</p>
-			
+
 			<p>Once the parts were delivered I started assembling my prototype. Since, I had no prior experience with electronics, I decided to start with something basic; turning on and testing the LEDs. Adafruit provides comprehensive libraries of code for most popular microcontrollers and hardware platforms. This made it really simple to run a <a href="https://learn.adafruit.com/digital-led-strip?view=all#code">strand test on a spare Arduino.</a></p>
-			
+
 			<p>The next step was getting it to work with the Raspberry Pi. The Arduino is a simpler microcontroller than the the Pi which is a full blown tiny linux computer. Since my project had a web app component, it made more sense to have a powerful computer manage the logic and data.</p>
 
 			<p>Getting the strip of LEDs wired correctly on to the Pi was straightforward thanks to this <a href="https://github.com/Sh4d/LPD8806">libary</a>. I've also created a diagram for reference below. Note that depending on the kind of LEDs you get, a level shifter might be necessary so that the Pi can talk to the LEDs correctly. I was using a strand of LEDs that had 5V logic so I didn't need one for the Pi. Make sure to read up on <a href="https://learn.adafruit.com/power-supplies">power supplies</a>, <a href="https://learn.adafruit.com/multimeters?view=all">multimeters</a> and the fundamentals of electricity if you haven't already.</p>
@@ -221,18 +220,18 @@ class: prototyping
 	</div>
 
 	<div class="row">
-		<div class="seven columns offset-by-three">	
+		<div class="seven columns offset-by-three">
 			<p>I cut the LED strip into strands of two LED segments and grouped them into sections of six to form the five faces of the cube. It was tedious to solder all the pieces together but it was a compromise I had to make based on the materials I had available. Just make sure to match the wires correctly. To provide power to the LEDs I repurposed an old cell phone charger that happened to have the right amount of voltage and amperage (5V - 550mA).</p>
 
 			<p>Once I had all the pieces wired up I coded a basic python script to control it. Since we’re running a headless linux machine, the Pi is able to do a lot of what you would be able to do on a normal computer. Due to the great developer community there are a ton of libraries written in the most popular programming languages for common electronic components. This saves plenty of time when prototyping.</p>
 
 			<p>Once past the prototyping phase you can begin to design custom chipsets and write byte code but that is outside the scope of this article. However, you will find some helpful links that will point you in the right direction at the end of this piece. Just be aware if you intend on manufacturing your prototype at some point it is wise to take these things into consideration.</p>
-			
+
 			<p>Another helpful hint is following the dev blogs of small indie startups gets you a lot of auxiliary information. IOT(Internet of Things) hardware like the <a href="http://blog.lockitron.com">Lockitron</a>, google glass and <a href="http://developer.getpebble.com/blog/">Pebble</a> mostly started out with off the shelf hobbyist parts before being designed into a manufacture ready object.</p>
 
 			<figure> <img src="/assets/img/prototyping/glass.jpg"> </figure>
 			<figcaption>Early Google Glass prototype - <a href="http://www.theverge.com/2013/2/22/4013406/i-used-google-glass-its-the-future-with-monthly-updates">The Verge</a></figcaption>
-			
+
 			<p>Once everything was working I had to somehow enclose the electronics into the form of a cube. My build had some placement limitations due to the size of the Raspberry Pi board and the way the LED strips were manufactured.</p>
 		</div>
 	</div>
@@ -246,11 +245,11 @@ class: prototyping
 			<figcaption>Build progression.</figcaption>
 		</div>
 
-		<div class="seven columns">		
+		<div class="seven columns">
 			<p>I 3D printed an ABA plastic mounting structure for the Raspberry Pi. I don't recall the original mount I used but you can find something similar by searching <a href="http://www.thingiverse.com/search?q=raspberry+pi+mount&sa=">Thingiverse</a>, a one stop shop for open source 3D files. For the enclosure I cut square pieces out of a clear acrylic plate which I then sanded to create a frosted diffused glow.</p>
 
 			<p>Note that while going through this process I was constantly hitting up against the material limits of whatever I was working with. As Ive said earlier thin plastic could only do certain things and act certain ways. As you experiment with various materials you will start learning about the inherent properties of each one.</p>
-			
+
 			<p>Creating the mounting structure for the 5 LED walls proved most challenging and I was never quite happy with it. I ended up 3D printing another harness I found on Thingiverse atop the Raspberry Pi. I then attached a wooden dowel to support a laser cut piece of wood holding the top face of the LEDs. Sugru, a fast drying putty like adhesive, was used to quickly mount this top plate after it failed to stick several times using glue.</p>
 
 			<p>Once this was done, all that was left was securing the acrylic shell to the base. The finished cube was almost entirely different than I had first imagined. Honestly, I was unhappy with a lot of the compromises I had to make to finish the prototype.</p>
@@ -281,8 +280,8 @@ class: prototyping
 		</div>
 
 		<div class="seven columns">
-			<p>Two years later and I still haven’t created a second version of the cube. After creating the first prototype I realized a number of things. While it was cool there wasn’t enough utility to justify creating another one. The only way I could have figured that out is by making and using this prototype for several months. The lessons I learned from this project were innumerable and hugely beneficial. It was a jumping of point that led to work on a series of even more complex electronic projects. That string of projects recently culminated in this <a href="http://www.gallerywendinorris.com/a.php?view=&event_id=145">electronic art sculpture</a>.</p>
-			
+			<p>Two years later and I still haven’t created a second version of the cube. After creating the first prototype I realized a number of things. While it was cool there wasn’t enough utility to justify creating another one. The only way I could have figured that out is by making and using this prototype for several months. The lessons I learned from this project were innumerable and hugely beneficial. It was a jumping of point that led to work on a series of even more complex electronic projects. That string of projects recently culminated in this <a href="http://gallerywendinorris.com/yorgo-alexopoulos-clouds/">electronic art sculpture</a>.</p>
+
 			<p>Hopefully this article helps you in your journey towards making something tangible. Please don't hesitate to <a href="mailto:matt@achariam.com">e-mail</a> me if you have any questions or corrections. If you'd like to hear about more things I write you should follow me on twitter at <a href="http://www.twitter.com/achariam">@achariam</a> or <a href="https://tinyletter.com/curious">subscribe here.</a></p>
 		</div>
 	</div>
@@ -314,7 +313,7 @@ class: prototyping
 				<li>+ <a href="http://fab.cba.mit.edu/classes/863.14/people/matthew_arbesfeld/2014/12/14/final-project/">Project: Building a sous-vide immersion cooker</a></li>
 				<li>+ <a href="http://arstechnica.com/gadgets/2014/08/gallery-dissecting-the-philips-hue-tap-wireless-battery-less-controller/">Dissecting the Philips Hue Tap wireless</a></li>
 				<li>+ <a href="https://vimeo.com/16527312">Rapid Prototyping with Aza Raskin</a></li>
-				<li>+ <a href="https://news.ycombinator.com/item?id=7085950"> I want to prototype hardware. Where do I start?</a></li>	
+				<li>+ <a href="https://news.ycombinator.com/item?id=7085950"> I want to prototype hardware. Where do I start?</a></li>
 			</ul>
 		</div>
 	</div>

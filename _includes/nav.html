@@ -1,8 +1,0 @@
-<nav class="site_nav" role="navigation">
-  <ul class="nav">
-    {% assign pages = site.pages | sort:"url" %}
-    {% for p in pages order:ascending %}{% if p.in-nav == true %}<li><a {% if p.url == page.url or (page.layout == "post" and p.url == "/writing/" ) %}class="active"{% endif %} href="{{ p.url }}">{{ p.title }}</a></li>
-    {% if p.url != "/info/" %}<li>&#183;</li>{% endif %}
-    {% endif %}{% endfor %}
-  </ul>
-</nav>
