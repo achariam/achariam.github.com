@@ -7,3 +7,4 @@ url: "http://www.achariam.com"
 # Build settings
 markdown: kramdown
 permalink: pretty
+github: [metadata]
