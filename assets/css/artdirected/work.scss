@@ -188,7 +188,7 @@ h3{
 
 	li {
 		display: inline;
-		text-decoration: none; 
+		text-decoration: none;
 	}
 
   a, a:visited {
@@ -222,20 +222,20 @@ figcaption{
 }
 
 
-.videoframe { 
-  position: relative; 
-  padding-bottom: 56.25%; 
-  height: 0; overflow: hidden; 
-  max-width: 100%; 
-} 
+.videoframe {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0; overflow: hidden;
+  max-width: 100%;
+}
 
-.videoframe iframe, 
-.videoframe object, 
-.videoframe embed { 
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  width: 100%; 
+.videoframe iframe,
+.videoframe object,
+.videoframe embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 100%;
 }
 
@@ -248,7 +248,7 @@ figcaption{
     color: #2E74DD;
     font-size: 110%;
     font-weight: 300;
-    padding: 0 $baseline; 
+    padding: 0 $baseline;
     margin: 20px 0;
     border-left: 1px solid #2E74DD;
   }
@@ -281,9 +281,9 @@ figcaption{
   ul li:before {
       content: "+";
       left: 0;
-      position: absolute;  
+      position: absolute;
   }
- 
+
  h4 {
     font-size: 110%;
     padding: 5px 0 10px 0;
@@ -295,12 +295,6 @@ figcaption{
   height: 100px;
   width: 100px;
   margin: 0 0 20px 0;
-}
-
-#guy{
-  max-width:280px;
-  height: auto;
-  margin: 0 auto 30px auto;
 }
 
 .digitalwork{
@@ -382,7 +376,7 @@ figcaption{
   ul li:before {
       content: "+";
       left: 0;
-      position: absolute;  
+      position: absolute;
   }
 
 }
