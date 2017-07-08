@@ -75,11 +75,11 @@ header {
 }
 
 p {
-  margin-bottom: 1.3rem;
+  margin-bottom: 1.4rem;
 }
 
 .dropcap {
-  border: 1px solid rgba(0, 162, 155, 1);
+  border: 2px solid rgba(0, 162, 155, 1);
   animation: rainbow 15s ease-in-out infinite alternate;
   float: left;
   font-size: 4rem;
@@ -90,7 +90,6 @@ p {
 
 h1, h2, h3 {
   font-weight: 500;
-  line-height: 1.2;
 }
 
 h1 {
@@ -106,7 +105,8 @@ h2 {
 }
 
 h3 {
-  font-size: 1.414rem;
+  font-size: 1.2rem;
+  margin: 2rem 0 .5rem 0;
 }
 
 figure {

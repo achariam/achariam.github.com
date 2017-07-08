@@ -24,50 +24,40 @@ javascript: elyxel.js
 
       <p><span class="dropcap">I</span>f you're ever in Japan, one of the many things that might stand out are the multitude of glowing candy colored mechanical cubes lining the streets. These machines are often filled with a dizzying array of surprisingly tasty snacks and beverages. It's hard to resist trading the extra yen in your pocket for one of these delectable treats. </p>
 
-      <p>When thinking about how I spent the last year of my time. I can't help but relate the idea of working on a project to the concept of these vending machines. You trade time and effort for what is a hopefully successful project. Beyond the seductive window of the vending machine tempting you with it's difficult to prove the merit of an idea without investing time and work. </p>
+      <p>I can't help but relate the idea of working on a project to the concept of these vending machines. You trade time and effort to bring something into reality. Beyond the seductive temptation of ideas calling to you from behind the glass window, it's difficult to prove the merit of an idea without first investing time and work.</p>
 
-      <p>I recently spent the better part of a year spending a large chunk of my extra time on an idea. I'll be writing about how I tried to leverage the maximum impact by combining learning a new programming language and framework, combined with working on a fun idea. I'm also open sourcing this project in the hopes that it might be beneficial to anyone trying to learn from what I did. The following is a detailed account of the process journey and outcome. This piece is geared towards someone who is familiar with the concepts of programming and general web development. </p>
+      <p>I traded my free time last year to learn about and build an Elixir application. The result, Elyxel is a basic community tool much like Hacker News designed to be a space to gather and share stories. My goals were simple; finish and learn new skills along the way. The following is a detailed account of the things I learned along the way.
 
-      <p>Elyxel is a basic community tool much like Hacker News built to be a space to gather and share stories. My goals were simple; finish and learn new skills along the way. The following is a detailed account of that process.</p>
+      <p>Additionally, Elyxel will be open sourced in the hope that it might be beneficial to anyone trying to learn from what I did. This piece is geared towards someone who is familiar with the concepts of programming and general web development. </p>
 
-      <h3>The Idea</h3>
+      <h3>Avoiding Design Limbo</h3>
 
       <p>I wanted to start with a fairly unoriginal simple concept that was familiar to me. At the time, solving the well defined problem of community software was particularly appealing. I was getting fatigued from the constant negative rhetoric that seemed to dominate the conversation on forums I frequent. That coupled with a desire to learn new technology was all the kindling I needed to get started.</p>
 
-      <h3>Design Limbo</h3>
+      <p>The actual design of the site took a minimal amount of time. I opted for a simple relatively sparse interface. In the past I would spend a lot of time up front on the design phase of the project. It's easy (and honestly quite fun) to get lost in the design process.</p>
 
-      <p>The actual design of the site took a minimal amount of time. I opted for a simple relatively sparse interface. In the past I would spend a lot of time up front on the design phase of the project. It's easy (and honestly quite fun) to get lost in the design process. Here is the combined inspiration board and working sketch file I used to make Elyxel. As you can see I spent a lot of time waffling between a light and a dark theme. </p>
+      <h3>Elixir & Phoenix</h3>
 
-      <h3>Elixir and Phoenix</h3>
+      <p>To better leverage the spare time I had after work I decided to use this as an opportunity to learn a new programming language and framework. Elixir and Phoenix came out on top after some research—it was fast, being actively developed and most importantly easy to get started with.</p>
 
-      <p>Around the same time I started coming across lots of articles about a programing language called elixir and one of it's flagship frameworks called Phoenix. It sounded really promising and exciting. It seemed to solve a lot of the gripes folks had with rails. After a lot of research on alternatives, and even beginning to start coding in other languages I decided to go with elixir and phoenix. I figured at the end of the year even if it doesn't amount to anything at least I'd have invested time learning some thing forward thinking and exciting. </p>
+      <p>After settling on my choice, I knew I needed a server to host the finished application. Instead of using an automated service like Heroku I set about learning how to provision and setup a small virtual private server (VPS). Now having gone through the process, I've gained a greater appreciation and understanding of the setup infrastructure. I highly recommend doing it at least once.</p>
 
-      <h3>Building</h3>
-
-      <p>If you'd like to jump straight to the code here is a link to the GitHub repo, but further down I discuss why I chose to open source Elyxel.</p>
-
-      <p>The tutorial on the phoenix site was really helpful but like any nascent technology it is not fairly exhaustive and assumes some familiarity with the process of building a modern web app.</p>
-
-      <p>The first thing I set about learning was how to provision and setup my own server. Earlier in the year I had procured a small virtual private server to tinker with. </p>
-
-      <p>There are much easier ways to host your web app, like Heroku, but for the sake of learning I decided to try a more manual approach.</p>
-
-      <p>These are roughly the steps I followed:</p>
-
-      <p>Note: Tutorials for this stuff are pretty easy to find. In fact most of the basics can be found on in one place: Digital Ocean's site.</p>
+      <p>If you're interested in doing the same, I've listed the major steps of the process below. The entire process took about a month of learning and understanding best practices. I had to cut some of these explorations short as each thread I pulled on unearthed a hundred more. There's a staggering amount of low level tech built by brilliant folks we rely on everyday.</p>
 
       <ol>
-      <li>Installed Ubuntu 14.04 through the RamNode config panel.</li>
-      <li>Setup a password less login via SSH</li>
+      <li>Installed Ubuntu</li>
+      <li>Setup password less login via SSH</li>
       <li>Installed NGINX</li>
       <li>Installed htop for monitoring</li>
       <li>Pointed the elyxel.com domain to the server</li>
       <li>Setup SSL via Let's Encrypt</li>
       </ol>
 
-      <p>This took more than a month as I took my time understanding and learning about best practices. I had to cut some of these explorations short as each thread I pulled on unearthed a hundred more. It's fascinating how much low level tech built by brilliant people we rely on and take for granted. </p>
+      <p>Note: Tutorials for this stuff are pretty easy to find. In fact most of the basics can be found on in one place: Digital Ocean's site.</p>
 
-      <h3>Building with Phoenix &amp; Elixir</h3>
+      <h3>The Meat & Potatoes</h3>
+
+      <p>The tutorial on the phoenix site was really helpful but like any nascent technology it is not fairly exhaustive and assumes some familiarity with the process of building a modern web application.</p>
 
       <p>There was an upfront cost of having to learn elixir before I could build anything. While the syntax was familiar there were a few new concepts to grapple with due to elixir being a functional programming language. There are many great tutorials to get you started here.</p>
 
@@ -84,7 +74,7 @@ javascript: elyxel.js
       <li>markdown support in comments</li>
       </ul>
 
-      <p><strong>1.0 build requirements</strong>:<br/>
+      <p>1.0 build requirements:
       - Written brief of what I'm trying to achieve
       - Sketch &amp; Wireframes
       - Server setup and config
