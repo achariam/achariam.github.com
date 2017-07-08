@@ -1,0 +1,136 @@
+---
+# The Idea Vending Machine - June 2017
+---
+
+//Reset
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+//Variables
+:root {
+  --baseunit: 2rem;
+  --serif-font: 500 125%/1.45 'freight-text-pro', 'Georgia', 'Times New Roman', serif;
+  --base-color: #FFFFFF;
+  --text-color: #3A3A3C;
+  --light-color: #9B9B9B;
+  --border-color: #EDECEC;
+}
+
+//Base
+html {
+  font: var(--serif-font);
+  background: var(--base-color);
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  padding: 0 var(--baseunit);
+  max-width: 52rem;
+  margin: 0 auto;
+}
+
+//Responsive
+@media (max-width: 40rem) {
+  html {
+    font-size: 112.5%;
+  }
+
+  .layout {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 30rem) {
+  html {
+    font-size: 100%;
+  }
+}
+
+//Main
+.layout {
+  display: flex;
+}
+
+.date {
+  flex: 1;
+}
+
+.story {
+  flex: 3.5;
+}
+
+header {
+  margin: 0 0 calc(var(--baseunit) * 1.5) 0;
+  padding: 0 0 calc(var(--baseunit) / 2) 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+p {
+  margin-bottom: 1.3rem;
+}
+
+.dropcap {
+  border: 1px solid rgba(0, 162, 155, 1);
+  animation: rainbow 15s ease-in-out infinite alternate;
+  float: left;
+  font-size: 4rem;
+  line-height: 2.4rem;
+  margin: 0.3rem 0.5rem 0 0;
+  padding: 0.6rem 0.78rem 0.8rem;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: -1px;
+}
+
+h2 {
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 1.414rem;
+}
+
+figure {
+  margin: calc(var(--baseunit) * 2) 0 var(--baseunit) 0;
+}
+
+figcaption {
+  text-align: right;
+}
+
+time {
+  color: var(--light-color);
+  font-size: .9rem;
+}
+
+@-webkit-keyframes rainbow {
+  0% {border-color: rgba(0, 162, 155, 1);}
+  10% {border-color: rgba(0, 173, 198, 1);}
+  20% {border-color: rgba(5, 149, 209, 1);}
+  30% {border-color: rgba(11, 117, 188, 1);}
+  40% {border-color: rgba(49, 52, 145, 1);}
+  50% {border-color: rgba(83, 38, 139, 1);}
+  60% {border-color: rgba (49, 52, 145, 1)}
+  70% {border-color: rgba(187, 24, 142, 1);}
+  80% {border-color: rgba(235, 23, 98, 1);}
+  90% {border-color: rgba(245, 126, 35, 1);}
+  100% {border-color: rgba(251, 195, 96, 1);}
+}

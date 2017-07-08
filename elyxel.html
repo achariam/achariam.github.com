@@ -1,0 +1,146 @@
+---
+layout: artdirected
+title: The Idea Vending Machine
+style: elyxel.css
+class: elyxel
+javascript: elyxel.js
+---
+
+<article>
+  <figure>
+    <img src="/assets/img/elyxel/vending_machine.png" alt="The Idea Vending Machine Of The Mind">
+    <figcaption></figcaption>
+  </figure>
+
+  <div class="layout">
+    <div class="date">
+      <time datetime="2017-07-07">July 2017</time>
+    </div>
+    <div class="story">
+      <header>
+        <h1>The Idea Vending Machine</h1>
+        <h2>Learnings from One Year of Building an Open Source Elixir Application</h2>
+      </header>
+
+      <p><span class="dropcap">I</span>f you're ever in Japan, one of the many things that might stand out are the multitude of glowing candy colored mechanical cubes lining the streets. These machines are often filled with a dizzying array of surprisingly tasty snacks and beverages. It's hard to resist trading the extra yen in your pocket for one of these delectable treats. </p>
+
+      <p>When thinking about how I spent the last year of my time. I can't help but relate the idea of working on a project to the concept of these vending machines. You trade time and effort for what is a hopefully successful project. Beyond the seductive window of the vending machine tempting you with it's difficult to prove the merit of an idea without investing time and work. </p>
+
+      <p>I recently spent the better part of a year spending a large chunk of my extra time on an idea. I'll be writing about how I tried to leverage the maximum impact by combining learning a new programming language and framework, combined with working on a fun idea. I'm also open sourcing this project in the hopes that it might be beneficial to anyone trying to learn from what I did. The following is a detailed account of the process journey and outcome. This piece is geared towards someone who is familiar with the concepts of programming and general web development. </p>
+
+      <p>Elyxel is a basic community tool much like Hacker News built to be a space to gather and share stories. My goals were simple; finish and learn new skills along the way. The following is a detailed account of that process.</p>
+
+      <h3>The Idea</h3>
+
+      <p>I wanted to start with a fairly unoriginal simple concept that was familiar to me. At the time, solving the well defined problem of community software was particularly appealing. I was getting fatigued from the constant negative rhetoric that seemed to dominate the conversation on forums I frequent. That coupled with a desire to learn new technology was all the kindling I needed to get started.</p>
+
+      <h3>Design Limbo</h3>
+
+      <p>The actual design of the site took a minimal amount of time. I opted for a simple relatively sparse interface. In the past I would spend a lot of time up front on the design phase of the project. It's easy (and honestly quite fun) to get lost in the design process. Here is the combined inspiration board and working sketch file I used to make Elyxel. As you can see I spent a lot of time waffling between a light and a dark theme. </p>
+
+      <h3>Elixir and Phoenix</h3>
+
+      <p>Around the same time I started coming across lots of articles about a programing language called elixir and one of it's flagship frameworks called Phoenix. It sounded really promising and exciting. It seemed to solve a lot of the gripes folks had with rails. After a lot of research on alternatives, and even beginning to start coding in other languages I decided to go with elixir and phoenix. I figured at the end of the year even if it doesn't amount to anything at least I'd have invested time learning some thing forward thinking and exciting. </p>
+
+      <h3>Building</h3>
+
+      <p>If you'd like to jump straight to the code here is a link to the GitHub repo, but further down I discuss why I chose to open source Elyxel.</p>
+
+      <p>The tutorial on the phoenix site was really helpful but like any nascent technology it is not fairly exhaustive and assumes some familiarity with the process of building a modern web app.</p>
+
+      <p>The first thing I set about learning was how to provision and setup my own server. Earlier in the year I had procured a small virtual private server to tinker with. </p>
+
+      <p>There are much easier ways to host your web app, like Heroku, but for the sake of learning I decided to try a more manual approach.</p>
+
+      <p>These are roughly the steps I followed:</p>
+
+      <p>Note: Tutorials for this stuff are pretty easy to find. In fact most of the basics can be found on in one place: Digital Ocean's site.</p>
+
+      <ol>
+      <li>Installed Ubuntu 14.04 through the RamNode config panel.</li>
+      <li>Setup a password less login via SSH</li>
+      <li>Installed NGINX</li>
+      <li>Installed htop for monitoring</li>
+      <li>Pointed the elyxel.com domain to the server</li>
+      <li>Setup SSL via Let's Encrypt</li>
+      </ol>
+
+      <p>This took more than a month as I took my time understanding and learning about best practices. I had to cut some of these explorations short as each thread I pulled on unearthed a hundred more. It's fascinating how much low level tech built by brilliant people we rely on and take for granted. </p>
+
+      <h3>Building with Phoenix &amp; Elixir</h3>
+
+      <p>There was an upfront cost of having to learn elixir before I could build anything. While the syntax was familiar there were a few new concepts to grapple with due to elixir being a functional programming language. There are many great tutorials to get you started here.</p>
+
+      <p>Phoenix required a similar learning curve, but it had enough similarity to rails that this was a relatively smooth process as well. </p>
+
+      <p>Once I had the basics it was a matter of building things piece by piece. I broke it down into several smaller parts based on features that have to be present in a 1.0.</p>
+
+      <h3>Interesting bits of code</h3>
+
+      <ul>
+      <li>pagination</li>
+      <li>voting algorithm</li>
+      <li>pagination</li>
+      <li>markdown support in comments</li>
+      </ul>
+
+      <p><strong>1.0 build requirements</strong>:<br/>
+      - Written brief of what I'm trying to achieve
+      - Sketch &amp; Wireframes
+      - Server setup and config
+      - Landing Page
+      - Signup &amp; Invite system flow
+      - App features:
+       - Top stories page
+       - Recent stories page
+       - Submit page
+       - Comments
+       - Profiles
+       - Voting system</p>
+
+      <p>The made challenges I encountered during the build process was the lack of robust tutorials and best practices. In hind sight this was actually favorable because it ended up being a rewarding challenge to figure out things on my own. I wouldn't recommend this process if you're under a deadline, but if the goal is learning then it definitely is valuable.</p>
+
+      <p>I also tried to pick simpler libraries to utilize. The goal here was to be able to understand the tools I was using and avoid cruft. We've all heard the horror stories of including some mega complex library to achieve a relatively simple goal.</p>
+
+      <p>The login and invite system was particularly tricky even though I used a simple library called open maize. It was great but I found myself getting really paranoid about missing some big security feature and leaving myself exposed.</p>
+
+      <p>One huge source of inspiration here is the open source community Lobster's built in rails. The code base was well built and accessible. I used some of the implementations I discovered from here. For example this particularly elegant bit of code allowing for human readable timestamps. Cool stuff. This serves as a natural segue into why I'm open sourcing Elyxel.</p>
+
+      <p>I decided to keep the code closed partially due to the worry of exposing really dumb mistakes or sloppy code. But I learnt a lot from a lot of the tutorials that I discovered along the way and I feel like this might be a good way to give back and also open the floor to improvements. </p>
+
+      <p>So people can learn from my mistakes and hopefully improve.</p>
+
+      <h3>Fatigue</h3>
+
+      <p>One thing that stuck with me throughout this project was how challenging it was to work a full work day and spend a few extra hours at night. Particularly because I was doing really interesting rewarding work as well. There were so many times where I was too exhausted to come home and work on Elyxel even though I was super excited to. This was deeply frustrating and I'm not sure what the solution here is. I just felt I had to share this. I always admire folks who are able to do both consistently well.</p>
+
+      <p>One good mantra here to keep moving as well was not letting perfection get in the way of something being good. There is endless amount of ways to get something better but I still have to start feeling comfortable sharing things that might not quite be where I think it should be.</p>
+
+      <h3>Race to 1.0</h3>
+
+      <p>I ended up finishing my 1.0 in January but have not done any work on it since. This is partially due to a massive project at work, moving and generally wanting some distance from the project.</p>
+
+      <h3>What's next?</h3>
+
+      <p>Truthfully, I'm honestly not sure. Now that it's out I'm not quite sure what to do next. 1 option is to push and try and build a real community out of Elyxel, which is a challenge of a different kind. If you've read through most of this, first of all wow, and secondly you might be interesting in joining. Send me an e-mail if you're interested.</p>
+
+      <h3>Useful Links</h3>
+
+      <h2>-</h2>
+
+      <p>-</p>
+
+      <p>Thanks in advance to X,Y,Z for reading early drafts of this.</p>
+
+      <p>[Footnote]
+      Since this was a learning exercise, it took more time than was truly necessary. I am fairly certain a competent programmer could have done the same in a month or less. And if you're really digging through my commit history you would notice that were periods of time where no progress was made. This was either when we were moving or work was really overwhelming</p>
+
+      <p>If you liked this story I wrote a similar article about prototyping an ambient notification cube 2 years ago. And if you'd like to see more of this kind of stuff feel free to reach out via any of the usual social networks.</p>
+
+      <h3>Additions</h3>
+
+      <p>Page weight and performance.
+      Take about reading changelog article.</p>
+    </div>
+  </div>
+</article>
