@@ -22,115 +22,153 @@ javascript: elyxel.js
         <h2>Learnings from One Year of Building an Open Source Elixir Application</h2>
       </header>
 
-      <p><span class="dropcap">I</span>f you're ever in Japan, one of the many things that might stand out are the multitude of glowing candy colored mechanical cubes lining the streets. These machines are often filled with a dizzying array of surprisingly tasty snacks and beverages. It's hard to resist trading the extra yen in your pocket for one of these delectable treats. </p>
+      <p>If you're ever in Japan, one of the many things that might stand out are the multitude of glowing candy colored mechanical cubes lining the streets. These machines are often filled with an array of surprisingly tasty snacks and beverages. It's hard to resist trading the extra yen in your pocket for one of these delectable treats.</p>
 
-      <p>I can't help but relate the idea of working on a project to the concept of these vending machines. You trade time and effort to bring something into reality. Beyond the seductive temptation of ideas calling to you from behind the glass window, it's difficult to prove the merit of an idea without first investing time and work.</p>
+      <p>I couldn't help but relate the idea of working on a side project to the concept of these vending machines. In a similar vein, you end up trading time and effort to bring something into reality. And beyond the seductive temptation of these potential project ideas calling to you from behind the glass window, it's difficult to prove it's merit without first investing time and work.</p>
 
-      <p>I traded my free time last year to learn about and build an Elixir application. The result, Elyxel is a basic community tool much like Hacker News designed to be a space to gather and share stories. My goals were simple; finish and learn new skills along the way. The following is a detailed account of the things I learned along the way.
+      <p>I traded my free time last year to learn about and build an Elixir application. The result, Elyxel is a basic community tool much like Hacker News et al. designed to be a space to gather and share stories. My goals were simple; finish and learn new skills along the way. The following is a detailed account of the things I learned along the way.</p>
 
-      <p>Additionally, Elyxel will be open sourced in the hope that it might be beneficial to anyone trying to learn from what I did. This piece is geared towards someone who is familiar with the concepts of programming and general web development. </p>
+      <p>Additionally, Elyxel will be <a href="https://github.com/achariam/elyxel">open sourced</a> in the hope that it might be beneficial to anyone trying to learn from what I did. This piece is geared towards someone who is familiar with the concepts of programming and general web development.</p>
 
-      <h3>Avoiding Design Limbo</h3>
+      <p>Avoiding Design Limbo
+      I wanted to start with a fairly unoriginal simple concept that was familiar to me. At the time, solving the well defined problem of community software was particularly appealing. I was getting fatigued from the constant negative rhetoric that seemed to dominate the conversation on forums I frequent. That coupled with a desire to learn new technology was all the kindling I needed to get started.</p>
 
-      <p>I wanted to start with a fairly unoriginal simple concept that was familiar to me. At the time, solving the well defined problem of community software was particularly appealing. I was getting fatigued from the constant negative rhetoric that seemed to dominate the conversation on forums I frequent. That coupled with a desire to learn new technology was all the kindling I needed to get started.</p>
+      <p>The actual design of the site took a minimal amount of time. I opted for a simple relatively sparse interface. On past projects I would spend a lot of time up front on the design phase of the project. It's easy (and honestly quite fun) to get lost in the design process.</p>
 
-      <p>The actual design of the site took a minimal amount of time. I opted for a simple relatively sparse interface. In the past I would spend a lot of time up front on the design phase of the project. It's easy (and honestly quite fun) to get lost in the design process.</p>
+      <p>Elixir &amp; Phoenix
+      To gain better leverage, I decided to use this spare time as an opportunity to learn a new programming language and framework. Elixir and Phoenix came out on top after some research—it was fast, being actively developed and most importantly easy to get started with. I have to add that the sheer amount of ways to build a modern web app is staggering. </p>
 
-      <h3>Elixir & Phoenix</h3>
-
-      <p>To gain better leverage, I decided to use this spare time as an opportunity to learn a new programming language and framework. Elixir and Phoenix came out on top after some research—it was fast, being actively developed and most importantly easy to get started with.</p>
+      <p>There's so many different ways to accomplish the same thing, and to be honest it was quite difficult cutting through the noise. I opted to try and remove as many elements as possible, with one of the major ones being avoiding using a front-end javascript framework. Static pages were plenty fast for my use case. A vital part of the process is whittling down the problem to it's core. </p>
 
       <p>After settling on my choice, I knew I needed a server to host the finished application. Instead of using an automated service like Heroku I set about learning how to provision and setup a small virtual private server (VPS). Now having gone through the process, I've gained a greater appreciation and understanding of the setup infrastructure. I highly recommend doing it at least once.</p>
 
-      <p>If you're interested in doing the same, I've listed the major steps of the process below. The entire process took about a month of learning and understanding best practices. I had to cut some of these explorations short as each thread I pulled on unearthed a hundred more. There's a staggering amount of low level tech built by brilliant folks we rely on everyday.</p>
+      <p>If you're interested in doing the same, I've listed the major steps of the process below. The entire setup process took about a month of learning and understanding best practices. I had to cut some of these explorations short as each thread I pulled on unearthed a hundred more. There's a staggering amount of low level tech built by brilliant folks we rely on everyday.</p>
 
-      <ol>
-      <li>Installed Ubuntu</li>
-      <li>Setup password less login via SSH</li>
-      <li>Installed NGINX</li>
-      <li>Installed htop for monitoring</li>
-      <li>Pointed the elyxel.com domain to the server</li>
-      <li>Setup SSL via Let's Encrypt</li>
-      </ol>
+      <p>Installed Ubuntu
+      Setup password less login via SSH
+      Installed NGINX
+      Installed htop for monitoring
+      Pointed the elyxel.com domain to the server
+      Setup SSL via Let's Encrypt</p>
 
       <p>Note: Tutorials for this stuff are pretty easy to find. In fact most of the basics can be found on in one place: Digital Ocean's site.</p>
 
-      <h3>The Meat & Potatoes</h3>
+      <p>Diving In To The Deep End
+      There's quite a few ways to approach to learning within a new domain. What works best for me is starting out by reading through some of the foundational principles. Once I have a rudimentary understanding, I try really quickly to apply what I learn to any kind of problem. If I don't take this next step I usually don't end up making enough meaningful connections in brain to remember any of it.</p>
 
-      <p>The tutorial on the phoenix site was really helpful but like any nascent technology it is not fairly exhaustive and assumes some familiarity with the process of building a modern web application.</p>
+      <p>Building the application consisted of two major learning steps. Learn enough of Elixir, which meant wrapping my head around functional programming and the syntax. Secondly learn phoenix, which was similar enough to rails that it didn't require as much effort. </p>
 
       <p>There was an upfront cost of having to learn elixir before I could build anything. While the syntax was familiar there were a few new concepts to grapple with due to elixir being a functional programming language. There are many great tutorials to get you started here.</p>
 
-      <p>Phoenix required a similar learning curve, but it had enough similarity to rails that this was a relatively smooth process as well. </p>
+      <p>Once I had the foundation, learning the the Phoenix framework was fairly smooth. The tutorial on the phoenix project phase served as the backbone the steps I took to write up the application. While it was a good overview some of the challenges I faced required looking up supplementary material. Luckily, any gaps in knowledge were then filled with shorted guides and pieces written by contributors to the community.</p>
 
-      <p>Once I had the basics it was a matter of building things piece by piece. I broke it down into several smaller parts based on features that have to be present in a 1.0.</p>
-
-      <h3>Interesting bits of code</h3>
+      <p>After gaining some familiarity with the chosen toolset, I knew I needed to breakdown the project into smaller feature milestones— breaking down critical features needed for 1.0. This is the checklist I came up with:</p>
 
       <ul>
-      <li>pagination</li>
-      <li>voting algorithm</li>
-      <li>pagination</li>
-      <li>markdown support in comments</li>
+      <li>Draft &amp; Thoughts of problem to be solved</li>
+      <li>Sketch and wireframes</li>
+      <li>Server provisioning</li>
+      <li>Landing Page</li>
+      <li>Signup flow</li>
+      <li>Invite Flow</li>
+      <li>App Functionality
+
+      <ul>
+      <li>Top page</li>
+      <li>Recents page</li>
+      <li>Submit page</li>
+      <li>Comments</li>
+      <li>Profiles</li>
+      <li>Voting Mechanism
+      Nice to haves:</li>
+      <li>Sentiment Analysis</li>
+      <li>Curated stories</li>
+      <li>Content Firehose</li>
+      </ul></li>
       </ul>
 
-      <p>1.0 build requirements:
-      - Written brief of what I'm trying to achieve
-      - Sketch &amp; Wireframes
-      - Server setup and config
-      - Landing Page
-      - Signup &amp; Invite system flow
-      - App features:
-       - Top stories page
-       - Recent stories page
-       - Submit page
-       - Comments
-       - Profiles
-       - Voting system</p>
-
-      <p>The made challenges I encountered during the build process was the lack of robust tutorials and best practices. In hind sight this was actually favorable because it ended up being a rewarding challenge to figure out things on my own. I wouldn't recommend this process if you're under a deadline, but if the goal is learning then it definitely is valuable.</p>
+      <p>Once I had the basics it was a matter of building things piece by piece. The main challenge that kept coming up was the lack of robust best practices for features I was trying to build. In hind sight this was actually favorable because it ended up being a rewarding challenge to figure out things on my own when I did get stuck. I wouldn't recommend this process if you're under a deadline, but if the goal is learning then it definitely is valuable.</p>
 
       <p>I also tried to pick simpler libraries to utilize. The goal here was to be able to understand the tools I was using and avoid cruft. We've all heard the horror stories of including some mega complex library to achieve a relatively simple goal.</p>
 
-      <p>The login and invite system was particularly tricky even though I used a simple library called open maize. It was great but I found myself getting really paranoid about missing some big security feature and leaving myself exposed.</p>
+      <p>The login and invite system was particularly tricky even though I used a simple library called openmaize. It was great but I found myself getting really paranoid about missing some big security feature and leaving myself exposed to a vulnerability. </p>
 
-      <p>One huge source of inspiration here is the open source community Lobster's built in rails. The code base was well built and accessible. I used some of the implementations I discovered from here. For example this particularly elegant bit of code allowing for human readable timestamps. Cool stuff. This serves as a natural segue into why I'm open sourcing Elyxel.</p>
+      <p>One huge source of inspiration was the open source community Lobster's built in rails. The code base was well built and accessible. I used some of the implementations I discovered from here. For example this particularly elegant bit of code allowing for human readable timestamps.</p>
 
-      <p>I decided to keep the code closed partially due to the worry of exposing really dumb mistakes or sloppy code. But I learnt a lot from a lot of the tutorials that I discovered along the way and I feel like this might be a good way to give back and also open the floor to improvements. </p>
+      <p>Performance
+      One thing I spent a lot of time thinking about was improving performance. Most of the app was designed and built with performance in mind. Styles and any additional flourishes were kept to a minimum. My choice of elixir was driven by this as well. Most of the pages are a few kilobytes and load pretty quickly. It’s always helpful to keep performance in the back of your mind when building something. </p>
 
-      <p>So people can learn from my mistakes and hopefully improve.</p>
+      <p>Fatigue and Completion
+      One thing that stuck with me throughout this project was how challenging it was to work a full work day and spend a few extra hours at night chipping away at Elyxel. Particularly because I was doing really interesting rewarding work as well. There were so many times where I was too exhausted to come home and work on Elyxel even though I was super excited to. I always admire folks who are able to do both consistently well.</p>
 
-      <h3>Fatigue</h3>
+      <p>To keep moving along I had to adapt the mantra of not letting perfection get in the way creating something that is good. There is endless amount of ways to iterate and improve something but I had to call whatever I was working on as done for the sake of progress even though I knew with more time I could improve it significantly. I've gotten better at it but it's still an uncomfortable decision most of the time. </p>
 
-      <p>One thing that stuck with me throughout this project was how challenging it was to work a full work day and spend a few extra hours at night. Particularly because I was doing really interesting rewarding work as well. There were so many times where I was too exhausted to come home and work on Elyxel even though I was super excited to. This was deeply frustrating and I'm not sure what the solution here is. I just felt I had to share this. I always admire folks who are able to do both consistently well.</p>
+      <p>The good news is I ended up finishing my 1.0 in January but have since stopped working on it. This is partially due to a massive project at work taking up headspace and generally wanting to take a break.</p>
 
-      <p>One good mantra here to keep moving as well was not letting perfection get in the way of something being good. There is endless amount of ways to get something better but I still have to start feeling comfortable sharing things that might not quite be where I think it should be.</p>
+      <p>What's next?
+      Truthfully, I'm not sure. Now that it's out there I'm not quite sure what to do with it. I learned a ton from building Elyxel out that has helped me grow various skills that directly apply to my career. Ideally with a little more work it becomes a small growing community. If you’ve read through all of this you’re the kind of person I made Elyxel for. If you’d like to join please don’t hesitate to send me an e-mail.</p>
 
-      <h3>Race to 1.0</h3>
+      <p>Pointers
+      Here is a supplemental collection of links that I have read through and have helped throughout the process of building this app:</p>
 
-      <p>I ended up finishing my 1.0 in January but have not done any work on it since. This is partially due to a massive project at work, moving and generally wanting some distance from the project.</p>
+      <p>Dev Ops specific:
+      - https://www.digitalocean.com/community/tutorials/apache-vs-nginx-practical-considerations
+      - https://wiki.mozilla.org/Security/Server_Side_TLS
+      - https://www.codelitt.com/blog/my-first-10-minutes-on-a-server-primer-for-securing-ubuntu/
+      - http://hisham.hm/htop/
+      - https://www.expeditedssl.com/aws-in-plain-english
+      - https://www.bjornjohansen.no/securing-nginx-ssl
+      - https://danielmiessler.com/study/tmux/
+      - http://clarkdave.net/2012/08/postgres-quick-start-for-people-who-know-mysql/
+      - https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/timeline-tool</p>
 
-      <h3>What's next?</h3>
+      <p>Elixir Specific:
+      - https://dockyard.com/blog/2015/11/30/comparing-date-time-in-elixir-with-ecto
+      - http://elixirbridge.org/docs.html
+      - http://michal.muskala.eu/2015/07/30/unix-timestamps-in-elixir.html
+      - http://www.akitaonrails.com/2015/11/03/my-first-week-learning-elixir
+      - https://news.ycombinator.com/item?id=12756166
+      - https://medium.com/@Pinterest_Engineering/introducing-new-open-source-tools-for-the-elixir-community-2f7bb0bb7d8c
+      - https://pragprog.com/book/elixir/programming-elixir [Book]
+      - https://cfenollosa.com/blog/the-elixir-of-concurrency.html
+      - http://elixirstatus.com
+      - http://www.elixirdose.com/post/phoenix_part_5_deploying_phoenix_the_final_part
+      - https://elixir-lang.org/crash-course.html#rebar-integration
+      - https://www.youtube.com/watch?v=ZCYEX6ZIJgM&amp;list=PLWbHc_FXPo2gB7HUE-2H61HAEyszAph3H&amp;index=12
+      - http://rny.io/elixir/ecto/postgresql/2015/08/31/postgresql-indexing-with-ecto.html
+      - http://big-elephants.com/2016-06/how-we-deploy-elixir-apps/
+      - https://stackoverflow.com/questions/30696761/check-if-a-url-is-valid-in-elixir
+      - https://stackoverflow.com/questions/31255126/get-only-specific-fields-when-fetching-data-using-ecto-in-phoenix</p>
 
-      <p>Truthfully, I'm honestly not sure. Now that it's out I'm not quite sure what to do next. 1 option is to push and try and build a real community out of Elyxel, which is a challenge of a different kind. If you've read through most of this, first of all wow, and secondly you might be interesting in joining. Send me an e-mail if you're interested.</p>
-
-      <h3>Useful Links</h3>
-
-      <h2>-</h2>
-
-      <p>-</p>
+      <p>Phoenix specific:
+      - https://stackoverflow.com/questions/36285173/adding-current-users-information-to-a-post-in-phoenix-framework
+      - https://cdyer.co.uk/blog/deploying-phoenix-elixir-with-bash-script/ [how I deploy now]
+      - https://jimmy-beaudoin.com/posts/elixir/phoenix-deployment/
+      - http://blog.carbonfive.com/2016/04/19/elixir-and-phoenix-the-future-of-web-apis-and-apps/
+      - https://elixirforum.com/t/complimentary-frontend-tools-for-single-page-applications/97/2http://blog.danielberkompas.com/elixir/2015/06/16/rate-limiting-a-phoenix-api.html
+      - https://snippets.aktagon.com/snippets/776-pagination-with-elixir-and-ecto [pretty clever]
+      - https://10consulting.com/2015/11/18/phoenix-react-redux-example/ [if you're interested in adding react]
+      - https://news.ycombinator.com/item?id=12756166
+      - https://www.youtube.com/watch?v=OxhTQdcieQE
+      - http://wsmoak.net/2015/07/27/adding-fields-to-an-ecto-model-in-phoenix.html
+      - https://pragprog.com/book/phoenix/programming-phoenix [book]
+      - https://www.dailydrip.com/topics/elm/drips/elm-phoenix-socket
+      - https://medium.com/@chvanikoff/phoenix-react-love-story-reph-1-c68512cfe18
+      - http://hashnuke.com/2015/07/19/convenience-hacks-for-using-exrm-with-phoenix-apps.html
+      - https://blog.codeship.com/comparing-rails-and-phoenix-part-i/
+      - http://gabrieljaldon.com/articles/deploying-phoenix-with-git.html
+      - https://semaphoreci.com/blog/2015/10/22/semaphore-continuous-deployment-with-phoenix-1-0.html
+      - https://dockyard.com/blog/2016/05/02/phoenix-tips-and-tricks
+      - http://cloudless.studio/articles/2-best-of-rails-in-phoenix-part-1</p>
 
       <p>Thanks in advance to X,Y,Z for reading early drafts of this.</p>
 
-      <p>[Footnote]
-      Since this was a learning exercise, it took more time than was truly necessary. I am fairly certain a competent programmer could have done the same in a month or less. And if you're really digging through my commit history you would notice that were periods of time where no progress was made. This was either when we were moving or work was really overwhelming</p>
-
       <p>If you liked this story I wrote a similar article about prototyping an ambient notification cube 2 years ago. And if you'd like to see more of this kind of stuff feel free to reach out via any of the usual social networks.</p>
 
-      <h3>Additions</h3>
+      <p>[Footnotes]
+      Since this was a learning exercise, it took more time than was truly necessary. I am fairly certain a competent programmer could have done the same in a month or less.</p>
 
-      <p>Page weight and performance.
-      Take about reading changelog article.</p>
+      <p>If you're really digging through my commit history you would notice that were periods of time where no progress was made. This was either when we were moving or work was really overwhelming.</p>
     </div>
   </div>
 </article>
