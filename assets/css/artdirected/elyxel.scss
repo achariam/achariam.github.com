@@ -22,7 +22,6 @@ img {
   --text-color: #3A3A3C;
   --light-color: #9B9B9B;
   --border-color: #EDECEC;
-  --link-color: #999999;
 }
 
 //Base
@@ -76,7 +75,7 @@ header {
 }
 
 a {
-  color: var(--link-color);
+  color: var(--light-color);
   text-decoration: none;
 }
 
