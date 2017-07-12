@@ -22,6 +22,7 @@ img {
   --text-color: #3A3A3C;
   --light-color: #9B9B9B;
   --border-color: #EDECEC;
+  --link-color: #999999;
 }
 
 //Base
@@ -72,6 +73,11 @@ header {
   margin: 0 0 calc(var(--baseunit) * 1.5) 0;
   padding: 0 0 calc(var(--baseunit) / 2) 0;
   border-bottom: 1px solid var(--border-color);
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
 }
 
 p {
