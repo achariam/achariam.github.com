@@ -80,7 +80,7 @@ a {
   text-decoration: none;
 }
 
-p {
+p, blockquote {
   margin-bottom: 1.4rem;
 }
 
@@ -126,6 +126,12 @@ figcaption {
 time {
   color: var(--light-color);
   font-size: .9rem;
+}
+
+blockquote {
+  padding: 0 0 0 var(--baseunit);
+  font-style: italic;
+  border-left: 1px solid var(--border-color);
 }
 
 @-webkit-keyframes rainbow {
