@@ -58,14 +58,19 @@ body {
 //Main
 .layout {
   display: flex;
+  justify-content: flex-end;
 }
 
 .date {
   flex: 1;
 }
 
-.story {
+.story-open {
   flex: 3.5;
+}
+
+.story {
+  max-width: 37.334rem;
 }
 
 header {
@@ -121,7 +126,7 @@ figure {
 figcaption {
   text-align: right;
   font-size: .7rem;
-  margin: calc(var(--baseunit) / 4) 0;
+  margin: calc(var(--baseunit) / 10) 0 0 0;
 }
 
 time {
@@ -148,6 +153,14 @@ blockquote {
 
   img {
     max-height: 800px;
+  }
+}
+
+.triple-frame {
+  display: flex;
+
+  figure:not(:last-child) {
+    margin-right: calc(var(--baseunit) / 2);
   }
 }
 
