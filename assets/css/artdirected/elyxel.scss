@@ -115,11 +115,13 @@ h3 {
 }
 
 figure {
-  margin: calc(var(--baseunit) * 2) 0 var(--baseunit) 0;
+  margin: var(--baseunit) 0;
 }
 
 figcaption {
   text-align: right;
+  font-size: .7rem;
+  margin: calc(var(--baseunit) / 4) 0;
 }
 
 time {
@@ -131,6 +133,22 @@ blockquote {
   padding: 0 0 0 var(--baseunit);
   font-style: italic;
   border-left: 1px solid var(--border-color);
+}
+
+.vending-machine {
+  margin: calc(var(--baseunit) * 2) 0 var(--baseunit) 0;
+}
+
+.window {
+  border: 1px solid var(--border-color);
+  width: 100%;
+  padding: 0 var(--baseunit);
+  display: flex;
+  justify-content: center;
+
+  img {
+    max-height: 800px;
+  }
 }
 
 @-webkit-keyframes rainbow {
