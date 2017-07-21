@@ -119,6 +119,11 @@ h3 {
   margin: 2rem 0 .5rem 0;
 }
 
+ol, ul {
+  list-style-position: inside;
+  margin-bottom: var(--baseunit);
+}
+
 figure {
   margin: var(--baseunit) 0;
 }

@@ -25,7 +25,7 @@ javascript: elyxel.js
 
       <p>I couldn't help but relate the idea of working on a project to the concept of these vending machines. In a similar vein, you end up trading time and effort to bring something into reality. And beyond the seductive temptation of these potential project ideas calling to you from behind the glass window, it's difficult to prove its merit without first investing time and work.</p>
 
-      <p>I traded my free time last year to learn about and build an Elixir application. The result, Elyxel, is a basic community tool much like Hacker News et al. designed to be a space to gather and share stories. My goals were simple—finish and learn new skills along the way. The following is a detailed account of the things I learned along the way.</p>
+      <p>I traded my free time last year to learn about and build an Elixir application. The result, <a href="https://www.elyxel.com">Elyxel</a>, is a basic community tool much like Hacker News et al. designed to be a space to gather and share stories. My goals were simple—finish and learn new skills along the way. The following is a detailed account of the things I learned along the way.</p>
     </div>
   </div>
 
@@ -70,12 +70,14 @@ javascript: elyxel.js
 
       <p>If you're interested in doing the same, I've listed the major steps of the process below. The entire setup process took about a month of learning and understanding best practices. I had to cut some of these explorations short as each thread I pulled on unearthed a hundred more. There's a staggering amount of low level tech built by brilliant folks we rely on everyday.</p>
 
-      <p>Installed Ubuntu
-      Setup password less login via SSH
-      Installed NGINX
-      Installed htop for monitoring
-      Pointed the elyxel.com domain to the server
-      Setup SSL via Let's Encrypt</p>
+      <ol>
+        <li>Installed Ubuntu</li>
+        <li>Setup password less login via SSH</li>
+        <li>Installed NGINX</li>
+        <li>Installed htop for monitoring</li>
+        <li>Pointed the elyxel.com domain to the server</li>
+        <li>Setup SSL via Let's Encrypt</li>
+      </ol>
 
       <p>Note: Tutorials for this stuff are pretty easy to find. In fact most of the basics can be found on in one place: Digital Ocean's site.</p>
 
@@ -155,55 +157,60 @@ javascript: elyxel.js
       <h3>Pointers</h3>
       <p>Here is a supplemental collection of links that I have read through and have helped throughout the process of building this app:</p>
 
-      <p>Dev Ops specific:
-      - https://www.digitalocean.com/community/tutorials/apache-vs-nginx-practical-considerations
-      - https://wiki.mozilla.org/Security/Server_Side_TLS
-      - https://www.codelitt.com/blog/my-first-10-minutes-on-a-server-primer-for-securing-ubuntu/
-      - http://hisham.hm/htop/
-      - https://www.expeditedssl.com/aws-in-plain-english
-      - https://www.bjornjohansen.no/securing-nginx-ssl
-      - https://danielmiessler.com/study/tmux/
-      - http://clarkdave.net/2012/08/postgres-quick-start-for-people-who-know-mysql/
-      - https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/timeline-tool</p>
+      <p>Dev Ops</p>
+      <ul>
+        <li><a href="https://www.digitalocean.com/community/tutorials/apache-vs-nginx-practical-considerations">Apache vs Nginx Practical Considerations</a></li>
+        <li><a href="https://wiki.mozilla.org/Security/Server_Side_TLS">Server Side TLS</a></li>
+        <li><a href="https://www.codelitt.com/blog/my-first-10-minutes-on-a-server-primer-for-securing-ubuntu/">Primer for Securing Ubuntu</a></li>
+        <li><a href="http://hisham.hm/htop/">htop</a></li>
+        <li><a href="https://www.expeditedssl.com/aws-in-plain-english">AWS in Plain English</a></li>
+        <li><a href="https://www.bjornjohansen.no/securing-nginx-ssl">Securing NGINX SSL</a></li>
+        <li><a href="https://danielmiessler.com/study/tmux/">tmux</a></li>
+        <li><a href="http://clarkdave.net/2012/08/postgres-quick-start-for-people-who-know-mysql/">Postgres Quick Start for People Who Know MYSQL</a></li>
+        <li><a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/timeline-tool">Evaluate Performance with Chrome Dev Tools</a></li>
+      </ul>
 
-      <p>Elixir Specific:
-      - https://dockyard.com/blog/2015/11/30/comparing-date-time-in-Elixir-with-ecto
-      - http://Elixirbridge.org/docs.html
-      - http://michal.muskala.eu/2015/07/30/unix-timestamps-in-Elixir.html
-      - http://www.akitaonRails.com/2015/11/03/my-first-week-learning-Elixir
-      - https://news.ycombinator.com/item?id=12756166
-      - https://medium.com/@Pinterest_Engineering/introducing-new-open-source-tools-for-the-Elixir-community-2f7bb0bb7d8c
-      - https://pragprog.com/book/Elixir/programming-Elixir [Book]
-      - https://cfenollosa.com/blog/the-Elixir-of-concurrency.html
-      - http://Elixirstatus.com
-      - http://www.Elixirdose.com/post/Phoenix_part_5_deploying_Phoenix_the_final_part
-      - https://Elixir-lang.org/crash-course.html#rebar-integration
-      - https://www.youtube.com/watch?v=ZCYEX6ZIJgM&amp;list=PLWbHc_FXPo2gB7HUE-2H61HAEyszAph3H&amp;index=12
-      - http://rny.io/Elixir/ecto/postgresql/2015/08/31/postgresql-indexing-with-ecto.html
-      - http://big-elephants.com/2016-06/how-we-deploy-Elixir-apps/
-      - https://stackoverflow.com/questions/30696761/check-if-a-url-is-valid-in-Elixir
-      - https://stackoverflow.com/questions/31255126/get-only-specific-fields-when-fetching-data-using-ecto-in-Phoenix</p>
+      <p>Elixir</p>
+      <ul>
+        <li><a href="https://dockyard.com/blog/2015/11/30/comparing-date-time-in-Elixir-with-ecto">Comparing Date Time in Elixir with Ecto</a></li>
+        <li><a href="http://Elixirbridge.org/docs.html">Elixir Bridge Documentation</a></li>
+        <li><a href="http://michal.muskala.eu/2015/07/30/unix-timestamps-in-Elixir.html">Unix Timestamps in Elixir</a></li>
+        <li><a href="http://www.akitaonRails.com/2015/11/03/my-first-week-learning-Elixir">My First Week Learning Elixir</a></li>
+        <li><a href="https://news.ycombinator.com/item?id=12756166">Ask HN—Are you using Elixir or Phoenix in Production</a></li>
+        <li><a href="https://medium.com/@Pinterest_Engineering/introducing-new-open-source-tools-for-the-Elixir-community-2f7bb0bb7d8c">Pinterest Engineering—New Open Source Tools for the Elixir Community</a></li>
+        <li><a href="https://pragprog.com/book/Elixir/programming-Elixir">Book—Programming Elixir</a></li>
+        <li><a href="https://cfenollosa.com/blog/the-Elixir-of-concurrency.html">The Elixir of Concurrency</a></li>
+        <li><a href="http://Elixirstatus.com">Elixirstatus—Latest Elixir News</a></li>
+        <li><a href="http://www.Elixirdose.com/post/Phoenix_part_5_deploying_Phoenix_the_final_part">Deploying Phoenix</a></li>
+        <li><a href="https://Elixir-lang.org/crash-course.html">Official Erlang & Elixir Syntax: A Crash Course</a></li>
+        <li><a href="https://www.youtube.com/watch?v=ZCYEX6ZIJgM&amp;list=PLWbHc_FXPo2gB7HUE-2H61HAEyszAph3H&amp;index=12">Video—From a Ruby on Rails Monolith to Elixir and Elm Microservices</a></li>
+        <li><a href="http://rny.io/Elixir/ecto/postgresql/2015/08/31/postgresql-indexing-with-ecto.html">Postgres Indexing with Ecto</a></li>
+        <li><a href="http://big-elephants.com/2016-06/how-we-deploy-Elixir-apps/">How We Deploy Elixir Apps</a></li>
+        <li><a href="https://stackoverflow.com/questions/30696761/check-if-a-url-is-valid-in-Elixir">Stack Overflow—Check if a URL is Valid in Elixir</a></li>
+        <li><a href="https://stackoverflow.com/questions/31255126/get-only-specific-fields-when-fetching-data-using-ecto-in-Phoenix">Stack Overflow—Specific Fields When Fetching Data Using Ecto</a></li>
+      </ul>
 
-      <p>Phoenix specific:
-      - https://stackoverflow.com/questions/36285173/adding-current-users-information-to-a-post-in-Phoenix-framework
-      - https://cdyer.co.uk/blog/deploying-Phoenix-Elixir-with-bash-script/ [how I deploy now]
-      - https://jimmy-beaudoin.com/posts/Elixir/Phoenix-deployment/
-      - http://blog.carbonfive.com/2016/04/19/Elixir-and-Phoenix-the-future-of-web-apis-and-apps/
-      - https://Elixirforum.com/t/complimentary-frontend-tools-for-single-page-applications/97/2http://blog.danielberkompas.com/Elixir/2015/06/16/rate-limiting-a-Phoenix-api.html
-      - https://snippets.aktagon.com/snippets/776-pagination-with-Elixir-and-ecto [pretty clever]
-      - https://10consulting.com/2015/11/18/Phoenix-react-redux-example/ [if you're interested in adding react]
-      - https://news.ycombinator.com/item?id=12756166
-      - https://www.youtube.com/watch?v=OxhTQdcieQE
-      - http://wsmoak.net/2015/07/27/adding-fields-to-an-ecto-model-in-Phoenix.html
-      - https://pragprog.com/book/Phoenix/programming-Phoenix [book]
-      - https://www.dailydrip.com/topics/elm/drips/elm-Phoenix-socket
-      - https://medium.com/@chvanikoff/Phoenix-react-love-story-reph-1-c68512cfe18
-      - http://hashnuke.com/2015/07/19/convenience-hacks-for-using-exrm-with-Phoenix-apps.html
-      - https://blog.codeship.com/comparing-Rails-and-Phoenix-part-i/
-      - http://gabrieljaldon.com/articles/deploying-Phoenix-with-git.html
-      - https://semaphoreci.com/blog/2015/10/22/semaphore-continuous-deployment-with-Phoenix-1-0.html
-      - https://dockyard.com/blog/2016/05/02/Phoenix-tips-and-tricks
-      - http://cloudless.studio/articles/2-best-of-Rails-in-Phoenix-part-1</p>
+      <p>Phoenix</p>
+      <ul>
+        <li><a href="https://cdyer.co.uk/blog/deploying-Phoenix-Elixir-with-bash-script/">Deploying Phoenix with a Bash Script (I currently use this)</a></li>
+        <li><a href="https://jimmy-beaudoin.com/posts/Elixir/Phoenix-deployment/">Phoenix Deployment</a></li>
+        <li><a href="http://blog.carbonfive.com/2016/04/19/Elixir-and-Phoenix-the-future-of-web-apis-and-apps/">Elixir and Phoenix the Future of Web APIs and Apps</a></li>
+        <li><a href="https://Elixirforum.com/t/complimentary-frontend-tools-for-single-page-applications/97/2">Complementary Frontend Tools for Single Page Applications</a></li>
+        <li><a href="http://blog.danielberkompas.com/Elixir/2015/06/16/rate-limiting-a-Phoenix-api.html">Rate Limiting a Phoenix API</a></li>
+        <li><a href="https://snippets.aktagon.com/snippets/776-pagination-with-Elixir-and-ecto">Pagination with Elixir and Ecto</a></li>
+        <li><a href="https://10consulting.com/2015/11/18/Phoenix-react-redux-example/">Phoenix React Redux Example</a></li>
+        <li><a href="https://www.youtube.com/watch?v=OxhTQdcieQE">Video—Rails to Phoenix by Brian Cardarella</a></li>
+        <li><a href="http://wsmoak.net/2015/07/27/adding-fields-to-an-ecto-model-in-Phoenix.html">Adding Field to an Ecto Model in Phoenix</a></li>
+        <li><a href="https://pragprog.com/book/Phoenix/programming-Phoenix">Book—Programming Phoenix</a></li>
+        <li><a href="https://www.dailydrip.com/topics/elm/drips/elm-Phoenix-socket">Elm Phoenix Socket</a></li>
+        <li><a href="https://medium.com/@chvanikoff/Phoenix-react-love-story-reph-1-c68512cfe18">Phoenix React Love Story</a></li>
+        <li><a href="https://blog.codeship.com/comparing-Rails-and-Phoenix-part-i/">Comparing Rails and Phoenix</a></li>
+        <li><a href="http://gabrieljaldon.com/articles/deploying-Phoenix-with-git.html">Deploying Phoenix with Git</a></li>
+        <li><a href="https://semaphoreci.com/blog/2015/10/22/semaphore-continuous-deployment-with-Phoenix-1-0.html">Continuous Deployment with Phoenix</a></li>
+        <li><a href="https://dockyard.com/blog/2016/05/02/Phoenix-tips-and-tricks">Phoenix Tips and Tricks</a></li>
+        <li><a href="http://cloudless.studio/articles/2-best-of-Rails-in-Phoenix-part-1">Best Of Rails in Phoenix</a></li>
+        <li><a href="https://stackoverflow.com/questions/36285173/adding-current-users-information-to-a-post-in-Phoenix-framework">Stack Overflow—Adding Current Users Information to a Post</a></li>
+      </ul>
 
       <p>Thanks in advance to [folks here] for reading early drafts and providing invaluable advice.</p>
 
