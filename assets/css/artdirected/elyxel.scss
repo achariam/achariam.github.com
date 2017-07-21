@@ -156,11 +156,22 @@ blockquote {
   }
 }
 
-.triple-frame {
+.quadruple-frame {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 
-  figure:not(:last-child) {
-    margin-right: calc(var(--baseunit) / 2);
+  .photo {
+    flex: 1 0 31%;
+    margin-bottom: calc(var(--baseunit) / 10);
+  }
+
+  .photo:first-child {
+    flex: 0 1 100%;
+  }
+
+  .photo:not(:first-child):not(:last-child) {
+    margin-right: calc(var(--baseunit) / 4);
   }
 }
 
