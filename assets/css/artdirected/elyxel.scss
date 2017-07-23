@@ -120,8 +120,17 @@ h3 {
 }
 
 ol, ul {
-  list-style-position: inside;
+  list-style-position: outside;
+  margin: 0 0 0 var(--baseunit);
   margin-bottom: var(--baseunit);
+}
+
+ul {
+  list-style: circle;
+}
+
+ol {
+  list-style: decimal;
 }
 
 figure {
@@ -143,6 +152,21 @@ blockquote {
   padding: 0 0 0 var(--baseunit);
   font-style: italic;
   border-left: 1px solid var(--border-color);
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--border-color);
+  margin: var(--baseunit) 0;
+}
+
+sup {
+  margin: 0 .1rem;
+}
+
+.footnotes {
+  font-size: .7rem;
+  margin-bottom: calc(var(--baseunit) * 4);
 }
 
 .vending-machine {

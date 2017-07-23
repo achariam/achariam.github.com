@@ -25,7 +25,7 @@ javascript: elyxel.js
 
       <p>I couldn't help but relate the idea of working on a project to the concept of these vending machines. In a similar vein, you end up trading time and effort to bring something into reality. And beyond the seductive temptation of these potential project ideas calling to you from behind the glass window, it's difficult to prove its merit without first investing time and work.</p>
 
-      <p>I traded my free time last year to learn about and build an Elixir application. The result, <a href="https://www.elyxel.com">Elyxel</a>, is a basic community tool much like Hacker News et al. designed to be a space to gather and share stories. My goals were simple—finish and learn new skills along the way. The following is a detailed account of the things I learned along the way.</p>
+      <p>I traded my free time last year to learn about and build an Elixir application. The result, <a href="https://www.elyxel.com">Elyxel</a>, is a basic community tool much like Hacker News et al. designed to be a space to gather and share stories<sup><a href="#fn1" id="r1">1</a></sup>. My goals were simple—finish and learn new skills along the way. The following is a detailed account of the things I learned along the way.</p>
     </div>
   </div>
 
@@ -68,7 +68,7 @@ javascript: elyxel.js
 
       <p>After settling on my choice, I knew I needed a server to host the finished application. Instead of using an automated service like Heroku, I set about learning how to provision and setup a small virtual private server (VPS). Now having gone through the process, I've gained a greater appreciation and understanding of the setup infrastructure. I highly recommend doing it at least once.</p>
 
-      <p>If you're interested in doing the same, I've listed the major steps of the process below. The entire setup process took about a month of learning and understanding best practices. I had to cut some of these explorations short as each thread I pulled on unearthed a hundred more. There's a staggering amount of low level tech built by brilliant folks we rely on everyday.</p>
+      <p>If you're interested in doing the same, I've listed the major steps of the process below<sup><a href="#fn2" id="r2">2</a></sup>. The entire setup process took about a month of learning and understanding best practices. I had to cut some of these explorations short as each thread I pulled on unearthed a hundred more. There's a staggering amount of low level tech built by brilliant folks we rely on everyday.</p>
 
       <ol>
         <li>Installed Ubuntu</li>
@@ -78,8 +78,6 @@ javascript: elyxel.js
         <li>Pointed the elyxel.com domain to the server</li>
         <li>Setup SSL via Let's Encrypt</li>
       </ol>
-
-      <p>Note: Tutorials for this stuff are pretty easy to find. In fact most of the basics can be found on in one place: Digital Ocean's site.</p>
 
       <h3>Diving In To The Deep End</h3>
 
@@ -136,7 +134,7 @@ javascript: elyxel.js
       </figure>
 
       <h3>Fatigue and Completion</h3>
-      <p>One thing that stuck with me throughout this project was how challenging it was to work a full work day and spend a few extra hours at night chipping away at Elyxel. Particularly because I was doing really interesting rewarding work as well. There were so many times where I was too exhausted to come home and work on Elyxel even though I was super excited to. I always admire folks who are able to do both consistently well.</p>
+      <p>One thing that stuck with me throughout this project was how challenging it was to work a full work day and spend a few extra hours at night chipping away at Elyxel<sup><a href="#fn3" id="r3">3</a></sup>. Particularly because I was doing really interesting rewarding work as well. There were so many times where I was too exhausted to come home and work on Elyxel even though I was super excited to. I always admire folks who are able to do both consistently well.</p>
 
       <blockquote cite="https://en.wikipedia.org/wiki/Perfect_is_the_enemy_of_good">
         Dans ses écrits, un sage Italien
@@ -192,7 +190,7 @@ javascript: elyxel.js
 
       <p>Phoenix</p>
       <ul>
-        <li><a href="https://cdyer.co.uk/blog/deploying-Phoenix-Elixir-with-bash-script/">Deploying Phoenix with a Bash Script (I currently use this)</a></li>
+        <li><a href="https://cdyer.co.uk/blog/deploying-Phoenix-Elixir-with-bash-script/">Deploying Phoenix with a Bash Script</a></li>
         <li><a href="https://jimmy-beaudoin.com/posts/Elixir/Phoenix-deployment/">Phoenix Deployment</a></li>
         <li><a href="http://blog.carbonfive.com/2016/04/19/Elixir-and-Phoenix-the-future-of-web-apis-and-apps/">Elixir and Phoenix the Future of Web APIs and Apps</a></li>
         <li><a href="https://Elixirforum.com/t/complimentary-frontend-tools-for-single-page-applications/97/2">Complementary Frontend Tools for Single Page Applications</a></li>
@@ -216,10 +214,21 @@ javascript: elyxel.js
 
       <p>If you liked this story, I wrote a similar article about prototyping an ambient notification cube 2 years ago. And if you'd like to see more of this kind of stuff feel free to reach out via any of the usual social networks.</p>
 
-      <p>[Footnotes]
-      Since this was a learning exercise, it took more time than was truly necessary. I am fairly certain a competent programmer could have done the same in a month or less.</p>
+      <hr>
 
-      <p>If you're really digging through my commit history you would notice that were periods of time where no progress was made. This was either when we were moving or work was really overwhelming.</p>
+      <div class="footnotes">
+        <ol>
+          <li id="fn1">
+            <p>Since this was a learning exercise, it took more time than was truly necessary. I am fairly certain a more competent programmer could have done the same in a few month or less.<a href="#r1">↩</a></p>
+          </li>
+          <li id="fn2">
+            <p>Guides for building simple system infrastructure are pretty easy to find. In fact most of the basics can be found on in one place—<a href="https://www.digitalocean.com/community/tutorials">Digital Ocean</a>.<a href="#r2">↩</a></p>
+          </li>
+          <li id="fn3">
+            <p>If you're really digging through my commit history you would notice there were periods of time where no progress was made. This was either when we were moving homes or work was really overwhelming.<a href="#r3">↩</a></p>
+          </li>
+        </ol>
+      </div>
     </div>
   </div>
 </article>
