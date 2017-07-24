@@ -172,6 +172,12 @@ sup {
   margin: 0 .2rem;
 }
 
+footer {
+  font-size: .7rem;
+  text-align: right;
+  color: var(--light-color);
+}
+
 .footnotes {
   font-size: .7rem;
   margin-bottom: calc(var(--baseunit) * 2);
