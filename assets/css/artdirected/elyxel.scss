@@ -241,6 +241,7 @@ footer {
   padding: var(--baseunit) 0;
   overflow: scroll;
   background-color: var(--dark-color);
+  max-width: 37.334rem;
 }
 .highlight .c { color: var(--light-color) } /* Comment */
 .highlight .err { color: var(--smoke-color) } /* Error */
