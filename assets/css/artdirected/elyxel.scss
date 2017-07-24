@@ -171,7 +171,7 @@ sup {
 }
 
 .vending-machine {
-  margin: calc(var(--baseunit) * 2) 0 var(--baseunit) 0;
+  margin: var(--baseunit) 0 var(--baseunit) 0;
 }
 
 .window {
