@@ -120,53 +120,57 @@ javascript: elyxel.js
 
       <p>Once I had an outline, it was a matter of building things piece by piece. The main challenge that kept coming up was the lack of robust best practices for features I was trying to build. In hindsight this was actually favorable because it ended up being a rewarding challenge to figure out things on my own when I did get stuck. I wouldn't recommend this process if you're under a deadline, but if the goal is learning then it definitely is valuable.</p>
 
-      <p>I also tried to pick <a href="https://github.com/achariam/elyxel/blob/master/mix.exs">simpler libraries</a> to utilize. The goal here was to be able to understand the tools I was using and avoid cruft. We've all heard the horror stories of including some mega complex library to achieve a relatively simple goal.</p>
+      <p>Another learning constraint was picking <a href="https://github.com/achariam/elyxel/blob/master/mix.exs">simpler libraries</a> to utilize. The goal was to be able to understand the tools I was using and avoid cruft. We've all heard the horror stories of including some mega complex library to achieve a relatively simple goal.</p>
 
-      <p>The login and invite system was particularly tricky even though I used a simple library called <a href="https://github.com/riverrun/openmaize">openmaize</a><sup><a href="#fn3" id="r3">3</a></sup>. It was great but through out the build I found myself getting increasingly paranoid about missing some big security feature and leaving myself exposed to an unforeseen vulnerability. </p>
+      <h3>Code Highlights</h3>
+
+      <p>To avoid getting overly prescriptive in this section, I'm only going to describe the more interesting challenges of the project<sup><a href="#fn3" id="r3">3</a></sup>.</p>
+
+      <p>The login and invite system was particularly tricky even though I used a simple library called <a href="https://github.com/riverrun/openmaize">openmaize</a><sup><a href="#fn4" id="r4">4</a></sup>. It was great but through out the build I found myself getting increasingly paranoid about missing some big security feature and leaving myself exposed to an unforeseen vulnerability. </p>
 
       <p>For less trickier parts I ported over some of the code from <a href="https://github.com/jcs/lobsters">Lobster</a>, another rails based community site. Their code base seemed built and accessible. One example was the particularly clever bit of code creating human readable timestamps below.</p>
 
       {% highlight elixir %}
-        defmodule Elyxel.Time do
-          @moduledoc """
-          Time Helper
-          """
+      defmodule Elyxel.Time do
+        @moduledoc """
+        Time Helper
+        """
 
-          epoch = {% raw  %}{{1970, 1, 1}, {0, 0, 0}}{% endraw %}
-          @epoch :calendar.datetime_to_gregorian_seconds(epoch)
+        epoch = {% raw  %}{{1970, 1, 1}, {0, 0, 0}}{% endraw %}
+        @epoch :calendar.datetime_to_gregorian_seconds(epoch)
 
-          def elapsed(time) do
-            now = :os.system_time(:seconds)
-            past_time =
-              time
-              |> Ecto.DateTime.to_erl
-              |> :calendar.datetime_to_gregorian_seconds
-              |> -(@epoch)
+        def elapsed(time) do
+          now = :os.system_time(:seconds)
+          past_time =
+            time
+            |> Ecto.DateTime.to_erl
+            |> :calendar.datetime_to_gregorian_seconds
+            |> -(@epoch)
 
-            now - past_time
-          end
-
-          def simple_time(time) do
-
-            seconds = elapsed(time)
-
-            cond do
-              seconds <= 60 ->
-                "#{seconds}s"
-              seconds < (60 * 60) ->
-                "#{ round(seconds / 60.0) }m"
-              seconds < (60 * 60 * 48) ->
-                "#{ round(seconds / 60.0 / 60.0) }h"
-              seconds < (60 * 60 * 24 * 30) ->
-                "#{ round(seconds / 60.0 / 60.0 / 24.0) }d"
-              seconds < (60 * 60 * 24 * 365) ->
-                "#{ round(seconds / 60.0 / 60.0 / 24.0 / 30.0) }mo"
-              true ->
-                "#{ round(seconds / 60.0 / 60.0 / 24.0 / 365.0) }y"
-            end
-          end
-
+          now - past_time
         end
+
+        def simple_time(time) do
+
+          seconds = elapsed(time)
+
+          cond do
+            seconds <= 60 ->
+              "#{seconds}s"
+            seconds < (60 * 60) ->
+              "#{ round(seconds / 60.0) }m"
+            seconds < (60 * 60 * 48) ->
+              "#{ round(seconds / 60.0 / 60.0) }h"
+            seconds < (60 * 60 * 24 * 30) ->
+              "#{ round(seconds / 60.0 / 60.0 / 24.0) }d"
+            seconds < (60 * 60 * 24 * 365) ->
+              "#{ round(seconds / 60.0 / 60.0 / 24.0 / 30.0) }mo"
+            true ->
+              "#{ round(seconds / 60.0 / 60.0 / 24.0 / 365.0) }y"
+          end
+        end
+
+      end
       {% endhighlight %}
 
       <h3>Performance</h3>
@@ -181,7 +185,8 @@ javascript: elyxel.js
       </figure>
 
       <h3>Fatigue and Completion</h3>
-      <p>One thing that stuck with me throughout this project was how challenging it was to work a full work day and spend a few extra hours at night chipping away at Elyxel<sup><a href="#fn3" id="r3">3</a></sup>. Particularly because I was doing really interesting rewarding work as well. There were so many times where I was too exhausted to come home and work on Elyxel even though I was super excited to. I always admire folks who are able to do both consistently well.</p>
+
+      <p>One thing that stuck with me throughout this project was how challenging it was to work a full work day and spend a few extra hours at night chipping away at Elyxel<sup><a href="#fn5" id="r5">5</a></sup>. Particularly because I was doing really interesting rewarding work as well. There were so many times where I was too exhausted to come home and work on Elyxel even though I was super excited to. I always admire folks who are able to do both consistently well.</p>
 
       <blockquote cite="https://en.wikipedia.org/wiki/Perfect_is_the_enemy_of_good">
         Dans ses écrits, un sage Italien
@@ -191,7 +196,7 @@ javascript: elyxel.js
 
       <p>To keep moving along I had to adapt the mantra, popularized by Voltaire, of not letting perfection being the enemy of good. There is endless amount of ways to iterate and improve something but I had to call whatever I was working on as done for the sake of progress even though I knew with more time I could improve it significantly. I've gotten better at it but it's still an uncomfortable decision most of the time. </p>
 
-      <p>The good news is I ended up finishing my 1.0 in January but have since stopped working on it. This is partially due to a massive project at work taking up head space and generally wanting to take a break.</p>
+      <p>The good news is I ended up finishing version 1.0 in January but have since stopped working on it. This is partially due to a massive project at work taking up head space and generally wanting to take a break.</p>
 
       <h3>What's next?</h3>
 
@@ -200,6 +205,7 @@ javascript: elyxel.js
       <p>At the end of the day, I find the real delight comes from the moment you experience the vending machine whirring and clicking to life as it dispenses your reward with a satisfying thud.</p>
 
       <h3>Pointers</h3>
+
       <p>Here is a supplemental collection of links that I have read through and have helped throughout the process of building this app:</p>
 
       <p>Dev Ops</p>
@@ -271,10 +277,13 @@ javascript: elyxel.js
             <p>Guides for building simple system infrastructure are pretty easy to find. In fact most of the basics can be found on in one place—<a href="https://www.digitalocean.com/community/tutorials">Digital Ocean</a>.<a href="#r2">&#8617;&#XFE0E;</a></p>
           </li>
           <li id="fn3">
-            <p>The risk of working on the cutting edge—It looks like future development has ceased on this library with the author working on a newer project.<a href="#r3">&#8617;&#XFE0E;</a></p>
+            <p>After all, it's hard to get more detailed than providing the <a href="https://github.com/achariam/elyxel">full source code</a>.<a href="#r3">&#8617;&#XFE0E;</a></p>
           </li>
           <li id="fn4">
-            <p>If you're really digging through my commit history you would notice there were periods of time where no progress was made. This was either when we were moving homes or work was really overwhelming.<a href="#r4">&#8617;&#XFE0E;</a></p>
+            <p>The risk of working on the cutting edge—It looks like future development has ceased on this library with the author working on a newer project.<a href="#r4">&#8617;&#XFE0E;</a></p>
+          </li>
+          <li id="fn5">
+            <p>If you're really digging through my commit history you would notice there were periods of time where no progress was made. This was either when we were moving homes or work was really overwhelming.<a href="#r5">&#8617;&#XFE0E;</a></p>
           </li>
         </ol>
       </div>
