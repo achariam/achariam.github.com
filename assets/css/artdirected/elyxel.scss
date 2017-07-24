@@ -41,7 +41,7 @@ html {
 }
 
 article {
-  padding: 0 var(--baseunit);
+  padding: 0 calc(var(--baseunit) / 2);
   max-width: 52rem;
   margin: 0 auto;
 }
