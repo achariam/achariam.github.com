@@ -18,6 +18,7 @@ img {
 :root {
   --baseunit: 2rem;
   --serif-font: 500 125%/1.45 'freight-text-pro', 'Georgia', 'Times New Roman', serif;
+  --mono-font: 'source-code-pro', monospace;
   --base-color: #FFFFFF;
   --text-color: #3A3A3C;
   --light-color: #9B9B9B;
@@ -153,6 +154,11 @@ hr {
 
 sup {
   margin: 0 .2rem;
+}
+
+code {
+  font-family: var(--mono-font);
+  font-size: .6rem;
 }
 
 .copyright {
