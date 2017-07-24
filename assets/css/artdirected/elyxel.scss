@@ -46,23 +46,6 @@ article {
   margin: 0 auto;
 }
 
-//Responsive
-@media (max-width: 40rem) {
-  html {
-    font-size: 112.5%;
-  }
-
-  .layout {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 30rem) {
-  html {
-    font-size: 100%;
-  }
-}
-
 //Main
 .layout {
   display: flex;
@@ -172,7 +155,7 @@ sup {
   margin: 0 .2rem;
 }
 
-footer {
+.copyright {
   font-size: .7rem;
   text-align: right;
   color: var(--light-color);
@@ -311,3 +294,24 @@ footer {
 .highlight .vg { color: var(--purple-color) } /* Name.Variable.Global */
 .highlight .vi { color: var(--purple-color) } /* Name.Variable.Instance */
 .highlight .il { color: var(--gold-color) } /* Literal.Number.Integer.Long */
+
+//Responsive
+@media (max-width: 50rem) {
+  html {
+    font-size: 112.5%;
+  }
+
+  .layout {
+    flex-direction: column;
+  }
+
+  .story, .highlight {
+    max-width: 50rem;
+  }
+}
+
+@media (max-width: 30rem) {
+  html {
+    font-size: 100%;
+  }
+}
