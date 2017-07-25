@@ -187,8 +187,14 @@ code {
   display: flex;
   justify-content: center;
 
+  .app-screen {
+    max-height: 796px;
+    max-width: 484px;
+  }
+
   img {
-    max-height: 800px;
+    max-height: 100%;
+    max-width: 100%;
   }
 }
 
@@ -319,5 +325,11 @@ code {
 @media (max-width: 30rem) {
   html {
     font-size: 100%;
+  }
+
+  .full-device {
+    width:calc(100% + var(--baseunit));
+    position:relative;
+    right:calc(var(--baseunit) / 2);
   }
 }
