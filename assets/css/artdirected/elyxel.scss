@@ -218,6 +218,36 @@ code {
   }
 }
 
+.info {
+  position: relative;
+  cursor: pointer;
+  color: var(--light-color);
+}
+
+.info::before,
+.info::after {
+  position: absolute;
+  opacity: 0;
+  transition: all ease 0.2s;
+}
+
+.info::after {
+  content: attr(data-info);
+  width: 11rem;
+  margin: -8rem 0 0 -12rem;
+  text-align: left;
+  background: var(--base-color);
+  border-left: 2px solid rgba(0, 162, 155, 1);
+  animation: rainbow 15s ease-in-out infinite alternate;
+  padding: calc(var(--baseunit) / 4);
+  color: var(--text-color);
+}
+
+.info:hover::before,
+.info:hover::after {
+  opacity: 1;
+}
+
 @keyframes rainbow {
   0% {border-color: rgba(0, 162, 155, 1);}
   10% {border-color: rgba(0, 173, 198, 1);}
