@@ -244,7 +244,9 @@ code {
 }
 
 .info:hover::before,
-.info:hover::after {
+.info:hover::after,
+.info:focus::before,
+.info:focus::after  {
   opacity: 1;
 }
 
