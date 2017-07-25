@@ -237,8 +237,8 @@ code {
 
 .info::after {
   content: attr(data-info);
-  width: 12rem;
-  margin: -8rem 0 0 -12rem;
+  width: 13rem;
+  margin: -8rem 0 0 -13rem;
   text-align: left;
   background: var(--base-color);
   border-left: 2px solid rgba(0, 162, 155, 1);
