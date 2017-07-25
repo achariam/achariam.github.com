@@ -132,7 +132,7 @@ figure {
 figcaption {
   text-align: right;
   font-size: .7rem;
-  margin: calc(var(--baseunit) / 10) 0 0 0;
+  margin: calc(var(--baseunit) / 8);
 }
 
 time {
@@ -225,6 +225,7 @@ code {
   border: none;
   border-radius: 0;
   background: none;
+  font: inherit;
 }
 
 .info::before,
@@ -236,7 +237,7 @@ code {
 
 .info::after {
   content: attr(data-info);
-  width: 11rem;
+  width: 12rem;
   margin: -8rem 0 0 -12rem;
   text-align: left;
   background: var(--base-color);
