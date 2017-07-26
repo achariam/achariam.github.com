@@ -346,7 +346,7 @@ code {
 .highlight .il { color: var(--gold-color) } /* Literal.Number.Integer.Long */
 
 //Responsive
-@media (max-width: 50rem) {
+@media (max-width: 50em) {
   html {
     font-size: 112.5%;
   }
@@ -360,7 +360,7 @@ code {
   }
 }
 
-@media (max-width: 30rem) {
+@media (max-width: 30em) {
   html {
     font-size: 100%;
   }
