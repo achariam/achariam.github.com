@@ -2,6 +2,7 @@
 layout: artdirected
 style: writing.css
 title: Five Principles for Good Data Visualization
+excerpt: Axioms to evaluate quantitative drawings
 class: dataviz
 ---
 
