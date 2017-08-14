@@ -1,0 +1,68 @@
+---
+# Writing
+---
+
+@import "variables";
+@import "base";
+@import "reset";
+@import "typography";
+@import "layout";
+
+body {
+  max-width: 52rem;
+}
+
+p,
+hr {
+  max-width: 38rem;
+  margin-bottom: $baseline;
+}
+
+a {
+  text-decoration: underline;
+}
+
+figure, h2 {
+  margin-top: $baseline;
+  margin-bottom: $baseline;
+}
+
+figcaption,
+.footnotes {
+  font-size: .8rem;
+  color: $skygrey;
+
+  a,
+  a:visited {
+    color: $skygrey;
+
+    &:hover {
+      color: $ink;
+    }
+  }
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid $smoke;
+  margin: $baseline 0;
+}
+
+sup {
+  margin: 0 .2rem;
+  font-size: .8rem;
+}
+
+sup > a,
+sup > a:visited {
+  color: $skygrey;
+  text-decoration: none;
+}
+
+.footnotes {
+  margin-bottom: $baseline * 2;
+}
+
+.footnotes li:target {
+  color: $ink;
+}

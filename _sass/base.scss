@@ -16,7 +16,7 @@ html,
 
   background-color: $background-color;
   color: $font-color;
-  
+
   @media (max-width: 860px) {
     font-size: $base-font-size*.9;
   }

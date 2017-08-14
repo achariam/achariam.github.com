@@ -69,6 +69,10 @@ $font-color: rgba(47, 54, 65, .9);
 @import "reset";
 @import "grid";
 
+.index-link {
+  margin: .3rem;
+  padding: 0 .2rem;
+}
 
 %ease {
   -webkit-transition: all .4s ease-in-out;
