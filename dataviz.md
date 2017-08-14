@@ -26,7 +26,7 @@ Communicating quantitative data effectively requires the right balance of compon
 People are easily overwhelmed with extraneous details. Simplify and reduce what is being presented to what is essential.
 
 **4. Good data visualization is created with pure data**<br>
-Avoid  utilizing muddy or incomplete sources of data. Misleading the audience with false information or lack of clarity is a cardinal sin. Ultimately, good data visualization enables better decisions and actions.
+Avoid  utilizing muddy or incomplete sources of data. Misleading the audience with false information or lack of clarity is in poor taste. Ultimately, good data visualization enables better decisions and actions.
 
 **5. Good data visualization is human**<br>
 Parsing large data quantities of data is beyond human perception. The goal with any kind of data visualization is to augment and improve human perception. Just like a microscope it allows us to explore data within the realm of our understanding.
