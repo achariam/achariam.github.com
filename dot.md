@@ -28,6 +28,18 @@ class: dot
 
 ## The Red Dot
 
+We got our first glimpse at the latest design of the Apple Watch more than two years ago[footnote to red edition series 1 watch]. No less, adorned on the wrist of Tim Cook was a stainless steel model with a bright red crown cap. Until last week, I wholly forgot about this photo—chalking it up to the whimsy of CEO with unlimited resources.
+
+I was immediately fascinated by this small but obvious aesthetic revision. I quickly realized, in this case form didn't follow function. The more expensive steel and edition watches have always had this cap while the cheaper aluminum models did not. It was flourish solely in place to signify differentiation.
+
+The design language of ornamentation is one the pillars of the luxury industry. The utility of a certain object doesn't necessarily increase with price. A diamond encrusted sapphire vessel doesn't carry liquid better than a plastic water bottle.
+
+To understand the rational of this decision we turn towards the tightly nit worlds of fashion and horology.
+
+---
+
+
+
 The most visible aesthetic design revision to the upcoming Apple  Watch is the bold red crown cap. My interest piqued as we unofficially learned through leaks and then officially shortly after at the Apple Keynote. As a designer this and not the notch struck me as the most interesting design decision that warranted  a story.
 
 I had an immediate reaction to it. We all react differently to change, most of the time negatively. I had a growing sense of curiosity as to what informed this decision.
