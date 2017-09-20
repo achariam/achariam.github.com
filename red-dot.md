@@ -54,7 +54,7 @@ This ideology is pervasive across many industries that share similar characteris
   </figcaption>
 </figure>
 
-French fashion designer, Christian Louboutin, employs a similar technique, coating the soles of the shoes he creates in a bright glossy red. A bold differentiated identity like this easily permeates pop culture. In one of this summers most [popular songs](https://www.nytimes.com/2017/08/23/arts/music/cardi-b-bodak-yellow.html), Bodak Yellow, Cardi B raps about her Loubotins, cleverly tying the reference into a thinly veiled gang association. Color can be used to great effect to signal exclusivity, tell a story and create a brand.
+French fashion designer, Christian Louboutin, employs a similar technique, coating the soles of the shoes he creates in a bright glossy red. A bold differentiated identity like this easily permeates pop culture. In one of this summers most [popular songs](https://www.nytimes.com/2017/08/23/arts/music/cardi-b-bodak-yellow.html), Bodak Yellow, Cardi B raps about her Loubotins, cleverly tying the reference into a thinly veiled gang association. Color can be used to great effect in signalling exclusivity, telling a story and creating a brand.
 
 <figure>
   <img src="/assets/img/red-dot/louboutin.jpg" alt="Decollete 554"/>
@@ -63,7 +63,7 @@ French fashion designer, Christian Louboutin, employs a similar technique, coati
   </figcaption>
 </figure>
 
-In horology watchmakers use color as a tool to differentiate between editions and various releases constantly. Industrial designer and long time Ive collaborator, Marc Newson, has created several watches that Ive has drawn inspiration from for the Apple Watch. His Hemipode watch also features red caps, adorned on secondary buttons.
+In horology watchmakers use color as a tool to differentiate between editions and various releases constantly. Industrial designer and long time Ive collaborator, Marc Newson, has created several watches that Ive has drawn inspiration from for the Apple Watch. Newson's Hemipode watch also features red caps, adorned on secondary buttons.
 
 <figure class="inline">
   <img src="/assets/img/red-dot/hemipode.jpg" alt="Hemipode Watch"/>
@@ -81,9 +81,9 @@ It would be remiss to talk about the design history at Apple and not talk about 
   </figcaption>
 </figure>
 
-Stepping up into a higher level of design abstraction leads us into the symbology of color. There are many facets of meaning one can derive from red, from the deeply cultural to the iconic–it covers the gamut from the [bindi](https://en.wikipedia.org/wiki/Bindi_(decoration)) to [HAL 9000](https://en.wikipedia.org/wiki/HAL_9000). Red evokes feelings from anger, to passion and excitement. It draws us in to our devices with notifications and communicates warnings with signs. All these things can be colored in the many shades of red.
+Stepping up into a higher level of design abstraction leads us into the symbology of color. There are many facets of meaning one can derive from red, from the deeply cultural to the iconic–it covers the gamut from the [bindi](https://en.wikipedia.org/wiki/Bindi_(decoration)) to [HAL 9000](https://en.wikipedia.org/wiki/HAL_9000). Red evokes feelings from anger, to passion and excitement. It draws us in to our devices with notifications and communicates warning signs. All these things can be colored in the many shades of red.
 
-By nature, changing anything that touches so many people is provocative. If you want an LTE enabled Apple Watch, you're getting a red crown cap—a decidedly non-neutral color is now the only option. In the past, you had the option of choosing a non-neutral colored device. The red dot breaks the modular styling of the watch. For better or worse, the watch design team decided that this marker was the higher priority.
+By nature, changing anything that touches so many people always elicits a reaction. If you want an LTE enabled Apple Watch, you're getting a red crown cap—a decidedly non-neutral color is now the only option. In the past, you had the option of choosing a non-neutral colored device. The red dot breaks the modular styling of the watch. For better or worse, the watch design team decided that this marker was the higher priority.
 
 ***
 
