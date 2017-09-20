@@ -37,7 +37,7 @@ We got an unknowing first glimpse at the latest design of the Apple Watch more t
   </figcaption>
 </figure>
 
-During the recent Apple Keynote, I was intrigued that this small but obvious revision was the only notable visual change applied to the new Apple Watch. In this case, form didn't follow function[^2]. It was flourish solely in place to signify differentiation.
+During the recent Apple Keynote, this small but obvious revision was the only notable visual change applied to the new Apple Watch. In this case, form didn't follow function[^2]. It was a flourish solely in place to signify differentiation.
 
 To understand the rational of this decision we must first understand how Apple approaches creating a new product. First, they spend an inordinate amount of time understanding the domain. Jony Ive, much like Steve Jobs, is known for his [obsessive nature](https://www.wired.com/2015/04/the-apple-watch/) as it applies to design.
 
