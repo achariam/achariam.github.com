@@ -43,7 +43,7 @@ The design language of ornamentation is one the pillars of the luxury industry. 
 
 To understand the rational of this decision we turn towards the tightly nit worlds of fashion and horology. When entering a new product category Apple always spends an inordinate amount of time understanding the domain it is entering. Jony Ive [obsessively](https://www.wired.com/2015/04/the-apple-watch/) studies the domain.
 
-In any kind of artistic pursuit, it is almost a prerequisite to study the greats that came before you. While it might sounds apocryphal, it is said that Picasso could mimic the work of great artists like Raphael at a very young age. It was only after much studying was he able to develop his own sense of expression. You have to know the rules before you break them. This deep understanding translates into care and respect in the design process. In this world form is the function.
+In any kind of artistic pursuit, it is almost a prerequisite to study the greats that came before you. While apocryphal in nature, it is said that Picasso could mimic the work of great artists like Raphael at a very young age. It was only after much studying was he able to develop his own sense of expression. You have to know the rules before you break them. This deep understanding translates into care and respect in the design process. In this world form is the function.
 
 This ideology is pervasive across many industries that share similar characteristics. Leica's brand is iconic due to their distinct red mark which it has used since 1913.
 
@@ -80,6 +80,8 @@ Dieter Rams himself uses color sparingly to draw attention to key features in hi
     <a href="http://www.braun-clocks.com">Braun</a>
   </figcaption>
 </figure>
+
+Either way this change is provocative. If we were to further abstract this change and talk about the symbology of the color red. Red carries strong religious and cultural significance. From the bindi to HAL9000, it covers the gamut. It is also associated with feelings, anger, passion, excitement all these emotions can be colored in the many shades of red. Why it evokes such a response is because until now, Apple has chosen to offer a neutral palette in it's primary devices and offer and slowly roll out more distinct colors as secondary options. Now if you want an LTE model, you're getting a red crown—a subjectively non neutral color is now the only option.
 
 Even in software design the red dot is universally used as a notification marker. Which leads me to my final point. The red dot might simply exist to call your attention to it.
 
