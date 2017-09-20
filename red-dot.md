@@ -28,7 +28,7 @@ class: dot
 
 ## The Red Dot
 
-We got our first glimpse at the latest design of the Apple Watch more than two years ago. No less, adorned on the wrist of Tim Cook was a stainless steel model with a bright red crown cap[^1]. Until last week, I wholly forgot about this photo—chalking it up to the whimsy of CEO with unlimited resources.
+We got our first glimpse at the latest design of the Apple Watch more than two years ago. No less, adorned on the wrist of Tim Cook was a stainless steel model with a bright red crown cap[^1]. Until last week, I wholly forgot about this photo—chalking it up to the whimsy of a CEO with unlimited resources at his disposal.
 
 <figure>
   <img src="/assets/img/red-dot/tim.jpg" alt="Tim Cook"/>
@@ -37,15 +37,15 @@ We got our first glimpse at the latest design of the Apple Watch more than two y
   </figcaption>
 </figure>
 
-I was immediately fascinated by this small but obvious aesthetic revision. I quickly realized, in this case form didn't follow function. The more expensive steel and edition watches have always had this cap while the cheaper aluminum models did not. It was flourish solely in place to signify differentiation.
+I was immediately fascinated by this small but obvious aesthetic revision. In this case, form didn't follow function. The more expensive steel and edition watches have always had this cap while the cheaper aluminum models did not. It was flourish solely in place to signify differentiation.
 
-The design language of ornamentation is one the pillars of the luxury industry. The utility of a certain object doesn't necessarily increase with price. A diamond encrusted sapphire vessel doesn't carry liquid better than a plastic water bottle.
+To understand the rational of this decision we must first understand how Apple approaches creating a new product. First, they spend an inordinate amount of time understanding the domain. Jony Ive, much like Steve Jobs, is known for his [obsessive nature](https://www.wired.com/2015/04/the-apple-watch/) as it applies to design.
 
-To understand the rational of this decision we turn towards the tightly nit worlds of fashion and horology. When entering a new product category Apple always spends an inordinate amount of time understanding the domain it is entering. Jony Ive [obsessively](https://www.wired.com/2015/04/the-apple-watch/) studies the domain.
+In this research phase, they undoubtedly discovered that the principles of consumer hardware design do not necessarily cross over into the world of horology and fashion—specifically the design language of ornamentation. The utility of a certain object doesn't necessarily increase with price. A diamond encrusted sapphire vessel doesn't carry liquid better than a plastic water bottle.
 
-In any kind of artistic pursuit, it is almost a prerequisite to study the greats that came before you. While apocryphal in nature, it is said that Picasso could mimic the work of great artists like Raphael at a very young age. It was only after much studying was he able to develop his own sense of expression. You have to know the rules before you break them. This deep understanding translates into care and respect in the design process. In this world form is the function.
+In any kind of artistic pursuit, it is almost a prerequisite to study the greats that came before you. While apocryphal in nature, it is said that Picasso could mimic the work of great artists like Raphael at a very young age. It was only after much studying and painting, was he able to develop his own form of expression. You have to know the rules before you break them. This deep understanding translates into care and respect in the creation process. In this world form is the function.
 
-This ideology is pervasive across many industries that share similar characteristics. Leica's brand is iconic due to their distinct red mark which it has used since 1913.
+This ideology is pervasive across many industries that share similar characteristics. Leica's brand is iconic due to their distinct red mark which it has used since 1913. It is instantly recognizable.
 
 <figure>
   <img src="/assets/img/red-dot/leica-silver.jpg" alt="Leica M-System"/>
@@ -54,7 +54,7 @@ This ideology is pervasive across many industries that share similar characteris
   </figcaption>
 </figure>
 
-All Christian Louboutin soles are bright red. It sends such a strong message it permeates pop culture. Cardi B, raps in Bodak Yellow about these shoes cleverly tying it in to a gang association. Color can be used to great effect —signal exclusivity, tell a story and create a brand.
+French fashion designer, Christian Louboutin, employs a similar technique, coating the soles of the shoes he creates in a bright glossy red. A bold differentiated identity like this easily permeates pop culture. In one of this summers most [popular songs](https://www.nytimes.com/2017/08/23/arts/music/cardi-b-bodak-yellow.html) hip-hop artist, Cardi B, raps about her Loubotins, cleverly tying it into thinly veiled gang association. Color can be used to great effect to signal exclusivity, tell a story and create a brand.
 
 <figure>
   <img src="/assets/img/red-dot/louboutin.jpg" alt="Decollete 554"/>
@@ -63,27 +63,27 @@ All Christian Louboutin soles are bright red. It sends such a strong message it 
   </figcaption>
 </figure>
 
-In horology watchmakers use color to differentiate between editions and releases constantly. Long time Ive collaborator Marc Newson (whose original ikepod inspired the Apple watch design) watch the hemipode uses red crown caps on secondary buttons as well
+In horology watchmakers use color as a tool to differentiate between editions and various releases constantly. Industrial designer and long time Ive collaborator, Marc Newson, has created several watches that Ive has drawn inspiration from for the Apple Watch. His Hemipode watch also features red caps, adorned on secondary buttons.
 
-<figure>
+<figure class="inline">
   <img src="/assets/img/red-dot/hemipode.jpg" alt="Hemipode Watch"/>
   <figcaption>
     <a href="http://marc-newson.com/hemipode-watch/">Marc Newson</a>
   </figcaption>
 </figure>
 
-Dieter Rams himself uses color sparingly to draw attention to key features in his industrial designs. There are many facets of meaning one can derive from red, from the deeply cultural to the iconic.
+It would be remiss to talk about the design history at Apple and not talk about Dieter Rams. His work, in line with his [princples](https://www.vitsoe.com/us/about/good-design), showcases color sparingly to draw attention to key features.
 
-<figure>
+<figure class="inline">
   <img src="/assets/img/red-dot/braun.jpg" alt="Dieter Rams Braun Calculator"/>
   <figcaption>
     <a href="http://www.braun-clocks.com">Braun</a>
   </figcaption>
 </figure>
 
-Either way this change is provocative. If we were to further abstract this change and talk about the symbology of the color red. Red carries strong religious and cultural significance. From the bindi to HAL9000, it covers the gamut. It is also associated with feelings, anger, passion, excitement all these emotions can be colored in the many shades of red. Why it evokes such a response is because until now, Apple has chosen to offer a neutral palette in it's primary devices and offer and slowly roll out more distinct colors as secondary options. Now if you want an LTE model, you're getting a red crown—a subjectively non neutral color is now the only option.
+Stepping up into a higher level of abstraction leads us into the symbology of color. There are many facets of meaning one can derive from red, from the deeply cultural to the iconic–it covers the gamut from the [bindi](https://en.wikipedia.org/wiki/Bindi_(decoration)) to [HAL 9000](https://en.wikipedia.org/wiki/HAL_9000). Red evokes feelings from anger, to passion and excitement. It draws us in to our devices with notifications and communicates warnings with signs. All these things can be colored in the many shades of red.
 
-Even in software design the red dot is universally used as a notification marker. Which leads me to my final point. The red dot might simply exist to call your attention to it.
+By nature, changing anything that touches so many people is provocative. If you want an LTE enabled Apple Watch, you're getting a red crown cap—a decidedly non-neutral color is now the only option. In the past, you had the option of choosing a non-neutral colored device. The red dot breaks the modular styling of the watch. For better or worse, the watch design team decided that this marker was the higher priority.
 
 ***
 
