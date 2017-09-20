@@ -39,7 +39,7 @@ We got an unknowing first glimpse at the latest design of the Apple Watch more t
 
 During the recent Apple Keynote, this small but obvious revision was the only notable visual change applied to the new Apple Watch. In this case, form didn't follow function[^2]. It was a flourish solely in place to signify differentiation.
 
-To understand the rational of this decision we must first understand how Apple approaches creating a new product. First, they spend an inordinate amount of time understanding the domain. Jony Ive, much like Steve Jobs, is known for his [obsessive nature](https://www.wired.com/2015/04/the-apple-watch/) as it applies to design.
+To understand the rational of this decision we must learn how Apple approaches creating a new product. First, they spend an inordinate amount of time understanding the domain. Jony Ive, much like Steve Jobs, is known for his [obsessive nature](https://www.wired.com/2015/04/the-apple-watch/) as it applies to design.
 
 In this research phase, they undoubtedly discovered that the principles of consumer hardware design do not necessarily cross over into the world of horology and fashion—specifically the design language of ornamentation. The utility of a certain object doesn't necessarily increase with price. A diamond encrusted sapphire vessel doesn't carry liquid better than a plastic water bottle.
 
