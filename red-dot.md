@@ -83,7 +83,7 @@ It would be remiss to talk about the design history at Apple and not talk about 
 
 Stepping up into a higher level of design abstraction leads us into the symbology of color. There are many facets of meaning one can derive from red, from the deeply cultural to the iconic—it covers the gamut from the [bindi](https://en.wikipedia.org/wiki/Bindi_(decoration)) to [HAL 9000](https://en.wikipedia.org/wiki/HAL_9000). Red evokes feelings from anger, to passion and excitement. It draws us in to our devices with notifications and communicates warning signs. All these things can be colored in the many shades of red.
 
-By nature, changing anything that touches so many people always elicits a reaction. If you want an LTE enabled Apple Watch, you're getting a red crown cap—a decidedly non-neutral color is now the only option. In the past, you had the option of choosing a non-neutral colored device. The red dot breaks the modular styling of the watch. For better or worse, the watch design team decided that this marker was the higher priority.
+By nature, changing anything that touches so many people always elicits a reaction. If you want an LTE enabled Apple Watch, you're getting a red crown cap—a decidedly non-neutral color is now the only option. In the past, you had the option of choosing a non-neutral colored device. The red dot breaks the modular styling of the watch. For better or worse, the watch design team decided that this marker was of greater importance.
 
 ***
 
