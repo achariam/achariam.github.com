@@ -41,9 +41,9 @@ During the recent Apple Keynote, this small but obvious revision was the only no
 
 To understand the rational of this decision we must learn how Apple approaches creating a new product. First, they spend an inordinate amount of time understanding the domain. Jony Ive, much like Steve Jobs, is known for his [obsessive nature](https://www.wired.com/2015/04/the-apple-watch/) as it applies to design.
 
-In this research phase, they undoubtedly discovered that the principles of consumer hardware design do not necessarily cross over into the world of horology and fashion—specifically the design language of ornamentation. The utility of a certain object doesn't necessarily increase with price. A diamond encrusted sapphire vessel doesn't carry liquid better than a plastic water bottle.
+In this research phase, they undoubtedly discovered that the principles of consumer hardware design do not necessarily cross over into the world of horology and fashion—specifically the design language of ornamentation. The utility of a certain object doesn't necessarily increase with price. A diamond encrusted sapphire vessel doesn't carry liquid better than a plastic water bottle. In this world form is the function.
 
-In any kind of artistic pursuit, it is almost a prerequisite to study the greats that came before you. While apocryphal in nature, it is said that Picasso could mimic the work of great artists like Raphael at a very young age. It was only after much studying and painting, was he able to develop his own form of expression. You have to know the rules before you break them. This deep understanding translates into care and respect in the creation process. In this world form is the function.
+In any kind of artistic pursuit, it is almost a prerequisite to study the greats that came before you. While apocryphal in nature, it is said that Picasso could mimic the work of great artists like Raphael at a very young age. It was only after much studying and painting, was he able to develop his own form of expression. You have to know the rules before you break them. This deep understanding translates into care and respect in the creation process.
 
 This ideology is pervasive across many industries that share similar characteristics. Leica's brand is iconic due to their distinct red mark which it has used since 1913. It is instantly recognizable.
 
@@ -54,7 +54,7 @@ This ideology is pervasive across many industries that share similar characteris
   </figcaption>
 </figure>
 
-French fashion designer, Christian Louboutin, employs a similar technique, coating the soles of the shoes he creates in a bright glossy red. A bold differentiated identity like this easily permeates pop culture. In one of this summers most [popular songs](https://www.nytimes.com/2017/08/23/arts/music/cardi-b-bodak-yellow.html) hip-hop artist, Cardi B, raps about her Loubotins, cleverly tying it into thinly veiled gang association. Color can be used to great effect to signal exclusivity, tell a story and create a brand.
+French fashion designer, Christian Louboutin, employs a similar technique, coating the soles of the shoes he creates in a bright glossy red. A bold differentiated identity like this easily permeates pop culture. In one of this summers most [popular songs](https://www.nytimes.com/2017/08/23/arts/music/cardi-b-bodak-yellow.html), Bodak Yellow, Cardi B raps about her Loubotins, cleverly tying the reference into a thinly veiled gang association. Color can be used to great effect to signal exclusivity, tell a story and create a brand.
 
 <figure>
   <img src="/assets/img/red-dot/louboutin.jpg" alt="Decollete 554"/>
@@ -81,7 +81,7 @@ It would be remiss to talk about the design history at Apple and not talk about 
   </figcaption>
 </figure>
 
-Stepping up into a higher level of abstraction leads us into the symbology of color. There are many facets of meaning one can derive from red, from the deeply cultural to the iconic–it covers the gamut from the [bindi](https://en.wikipedia.org/wiki/Bindi_(decoration)) to [HAL 9000](https://en.wikipedia.org/wiki/HAL_9000). Red evokes feelings from anger, to passion and excitement. It draws us in to our devices with notifications and communicates warnings with signs. All these things can be colored in the many shades of red.
+Stepping up into a higher level of design abstraction leads us into the symbology of color. There are many facets of meaning one can derive from red, from the deeply cultural to the iconic–it covers the gamut from the [bindi](https://en.wikipedia.org/wiki/Bindi_(decoration)) to [HAL 9000](https://en.wikipedia.org/wiki/HAL_9000). Red evokes feelings from anger, to passion and excitement. It draws us in to our devices with notifications and communicates warnings with signs. All these things can be colored in the many shades of red.
 
 By nature, changing anything that touches so many people is provocative. If you want an LTE enabled Apple Watch, you're getting a red crown cap—a decidedly non-neutral color is now the only option. In the past, you had the option of choosing a non-neutral colored device. The red dot breaks the modular styling of the watch. For better or worse, the watch design team decided that this marker was the higher priority.
 
