@@ -28,7 +28,7 @@ class: dot
 
 ## The Red Dot
 
-We got our first glimpse at the latest design of the Apple Watch more than two years ago. No less, adorned on the wrist of Tim Cook was a stainless steel model with a bright red crown cap[^1]. Until last week, I wholly forgot about this photo—chalking it up to the whimsy of a CEO with unlimited resources at his disposal.
+We got an unknowing first glimpse at the latest design of the Apple Watch more than two years ago. No less, adorned on the wrist of Tim Cook was a stainless steel watch with a bright red crown cap[^1]. Shortly after, I wholly forgot about this seemingly insignificant revelation—chalking it up to the whimsy of a CEO with unlimited resources at his disposal.
 
 <figure>
   <img src="/assets/img/red-dot/tim.jpg" alt="Tim Cook"/>
@@ -37,7 +37,7 @@ We got our first glimpse at the latest design of the Apple Watch more than two y
   </figcaption>
 </figure>
 
-I was immediately fascinated by this small but obvious aesthetic revision. In this case, form didn't follow function. The more expensive steel and edition watches have always had this cap while the cheaper aluminum models did not. It was flourish solely in place to signify differentiation.
+During the recent Apple Keynote, I was intrigued that this small but obvious revision was the only notable visual change applied to the new Apple Watch. In this case, form didn't follow function[^2]. It was flourish solely in place to signify differentiation.
 
 To understand the rational of this decision we must first understand how Apple approaches creating a new product. First, they spend an inordinate amount of time understanding the domain. Jony Ive, much like Steve Jobs, is known for his [obsessive nature](https://www.wired.com/2015/04/the-apple-watch/) as it applies to design.
 
@@ -88,3 +88,4 @@ By nature, changing anything that touches so many people is provocative. If you 
 ***
 
 [^1]: Technically the 38mm 18-Karat Yellow Gold Apple Watch Edition was the first instance of a red crown cap.
+[^2]: The more expensive steel and edition watches always have this cap while the cheaper aluminum models do not. This rules out the idea that there is a functional benefit to having it in place. I initially thought it had something to do with an antenna—it does not. The antenna is built into the screen.
