@@ -6,7 +6,7 @@ excerpt: Apple Watch—Series 3 Digital Crown
 class: dot
 ---
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63 63" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg class="inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63 63" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <linearGradient id="a" x1="100%" x2="91.6294643%" y1="50%" y2="93.2694692%">
       <stop stop-color="#990716" offset="0%"/>
