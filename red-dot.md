@@ -72,7 +72,7 @@ In horology watchmakers use color as a tool to differentiate between editions an
   </figcaption>
 </figure>
 
-It would be remiss to talk about the design history at Apple and not talk about Dieter Rams. His work, in line with his [princples](https://www.vitsoe.com/us/about/good-design), showcases color sparingly to draw attention to key features.
+It would be remiss to talk about the design history at Apple and not talk about Dieter Rams. His work, inline with his [princples](https://www.vitsoe.com/us/about/good-design), showcases color sparingly to draw attention to key features.
 
 <figure class="inline">
   <img src="/assets/img/red-dot/braun.jpg" alt="Dieter Rams Braun Calculator"/>
