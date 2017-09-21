@@ -39,7 +39,7 @@ We got an unknowing first glimpse at the latest design of the Apple Watch more t
 
 During the recent Apple Keynote, this small but obvious revision was the only notable visual change applied to the new Apple Watch. In this case, form didn't follow function[^2]. It was a flourish solely in place to signify differentiation.
 
-To understand the rational of this decision we must learn how Apple approaches creating a new product. First, they spend an inordinate amount of time understanding the domain. Jony Ive, much like Steve Jobs, is known for his [obsessive nature](https://www.wired.com/2015/04/the-apple-watch/) as it applies to design.
+To understand the rationale of this decision we must learn how Apple approaches creating a new product. First, they spend an inordinate amount of time understanding the domain. Jony Ive, much like Steve Jobs, is known for his [obsessive nature](https://www.wired.com/2015/04/the-apple-watch/) as it applies to design.
 
 In this research phase, they undoubtedly discovered that the principles of consumer hardware design do not necessarily cross over into the world of horology and fashion—specifically the design language of ornamentation. The utility of a certain object doesn't necessarily increase with price. A diamond encrusted sapphire vessel doesn't carry liquid better than a plastic water bottle. In this world form is the function.
 
@@ -72,7 +72,7 @@ In horology watchmakers use color as a tool to differentiate between editions an
   </figcaption>
 </figure>
 
-It would be remiss to talk about the design history at Apple and not talk about Dieter Rams. His work, inline with his [princples](https://www.vitsoe.com/us/about/good-design), showcases color sparingly to draw attention to key features.
+It would be remiss to talk about the design history at Apple and not talk about Dieter Rams. His work, inline with his [principles](https://www.vitsoe.com/us/about/good-design), showcases color sparingly to draw attention to key features.
 
 <figure class="inline">
   <img src="/assets/img/red-dot/braun.jpg" alt="Dieter Rams Braun Calculator"/>
