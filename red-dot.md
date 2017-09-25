@@ -41,7 +41,7 @@ During the recent Apple Keynote, this small but obvious revision was the only no
 
 To understand the rationale of this decision we must learn how Apple approaches creating a new product. First, they spend an inordinate amount of time understanding the domain. Jony Ive, much like Steve Jobs, is known for his [obsessive nature](https://www.wired.com/2015/04/the-apple-watch/) as it applies to design.
 
-In this research phase, they undoubtedly discovered that the principles of consumer hardware design do not necessarily cross over into the world of horology and fashion—specifically the design language of ornamentation. The utility of a certain object doesn't necessarily increase with price. A diamond encrusted sapphire vessel doesn't carry liquid better than a plastic water bottle. In this world form is the function.
+In this research phase, they undoubtedly discovered that the principles of consumer hardware design do not necessarily cross over into the world of horology and fashion—specifically the design language of ornamentation. The utility of a certain object doesn't necessarily increase with price. A diamond encrusted sapphire vessel doesn't carry liquid better than a plastic water bottle. In this world, _form is the function_.
 
 In any kind of artistic pursuit, it is almost a prerequisite to study the greats that came before you. While apocryphal in nature, it is said that Picasso could mimic the work of great artists like Raphael at a very young age. It was only after much studying and painting, was he able to develop his own form of expression. You have to know the rules before you break them. This deep understanding translates into care and respect in the creation process.
 
