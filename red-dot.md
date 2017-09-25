@@ -63,7 +63,7 @@ French fashion designer, Christian Louboutin, employs a similar technique, coati
   </figcaption>
 </figure>
 
-In horology watchmakers use color as a tool to differentiate between editions and various releases constantly. Industrial designer and long time Ive collaborator, Marc Newson, has created several watches that Ive has drawn inspiration from for the Apple Watch. Newson's Hemipode watch also features red caps, adorned on secondary buttons.
+In horology watchmakers use color as a tool to differentiate between editions and various releases constantly. Industrial designer and long time Ive collaborator, Marc Newson, has created several watches that Ive has drawn inspiration from for the Apple Watch. Newson's Hemipode Watch also features red caps, adorned on secondary buttons.
 
 <figure class="inline">
   <img src="/assets/img/red-dot/hemipode.jpg" alt="Hemipode Watch"/>
@@ -88,4 +88,4 @@ By nature, changing anything that touches so many people always elicits a reacti
 ***
 
 [^1]: Technically the 38mm 18-Karat Yellow Gold Apple Watch Edition was the first instance of a red crown cap.
-[^2]: The more expensive steel and edition watches always have this cap while the cheaper aluminum models do not. This rules out the idea that there is a functional benefit to having it in place. I initially thought it had something to do with an antenna—it does not. The antenna is built into the screen.
+[^2]: In previous versions, the more expensive steel and edition watches always had this cap while the cheaper aluminum models did not. This rules out the idea that there is a functional benefit to having it in place. I initially thought it had something to do with the antenna—it does not. The antenna is built into the screen.
