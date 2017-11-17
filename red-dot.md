@@ -28,7 +28,7 @@ class: dot
 
 ## The Red Dot
 
-We got an unknowing first glimpse at the latest design of the Apple Watch more than two years ago. No less, adorned on the wrist of Tim Cook was a stainless steel watch with a bright red crown cap[^1]. Shortly after, I wholly forgot about this seemingly insignificant revelation—chalking it up to the whimsy of a CEO with unlimited resources at his disposal.
+We got an unknowing first glimpse at the latest design of the Apple Watch, a stainless steel timepiece with a bright red crown cap[^1], more than two years ago—on the wrist of Tim Cook, no less. Shortly after, I wholly forgot about this seemingly insignificant revelation—chalking it up to the whimsy of a CEO with unlimited resources at his disposal.
 
 <figure>
   <img src="/assets/img/red-dot/tim.jpg" alt="Tim Cook"/>
