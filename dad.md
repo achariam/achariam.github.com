@@ -101,7 +101,7 @@ As this theme of always connecting with others swelled throughout his life, he f
   </figcaption>
 </figure>
 
-He seemingly intertwined all his dreams in what came next when we moved here from Malaysia. Having lived abroad he always realized that the education system back home could be better so he tried desperately hard, along with my mother, to get my sister and I to better opportunities. Together the both of them sacrificed everything they had to bring us here.
+He seemingly intertwined all his dreams in what came next when we moved here from Malaysia. Having studied abroad he always realized that the education system back home could be better so he tried desperately hard, along with my mother, to get my sister and I to better opportunities. Together the both of them sacrificed everything they had to bring us here.
 
 It was tough packing up your entire life and giving up everything and everyone you knew in the hopes of a better future. But my dad knew it was possible, he had done it before and had to do it again. So we sold all our worldly possessions and came here.
 
