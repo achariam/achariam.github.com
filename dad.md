@@ -15,7 +15,7 @@ This is the final line of [Invictus](https://www.poetryfoundation.org/poems/5164
 
 My dad[^1] led our small family through many hills and valleys over his lifetime and all through it we never felt a limit to his love for us. In fact, he had so much love to give that he readily shared it with those around him as well.
 
-While I know it's impossible to sum a special life in a few paragraphs, I thought I'd share a few vignettes that hopefully represents the kind of man he aspired to be and ultimately was.
+While I know it's impossible to sum a special life in a few paragraphs, I thought I'd share a few vignettes that hopefully represent the kind of man he aspired to be and ultimately was.
 
 <figure>
   <img src="/assets/img/dad/classic.png" alt="My parents"/>
@@ -84,7 +84,7 @@ He then spent the next few years helping his family while trying to rebuild a li
     <img src="/assets/img/dad/mahathir.png" alt="My dad alongside the current prime minister."/>
   </div>
   <figcaption>
-    My dad had the honor of creating and putting together an event for the first prime minister of Malaysia, <a href="https://en.wikipedia.org/wiki/Tunku_Abdul_Rahman">Tuanku Abdul Rahman</a> who took over after independence from the British. Many years later, (last photo) he is standing with the then and surprisingly current prime minister of Malaysia, <a href="https://en.wikipedia.org/wiki/Mahathir_Mohamad">Mahathir Mohamad</a>.
+    My dad had the honor of creating and putting together an event for the first prime minister of Malaysia, <a href="https://en.wikipedia.org/wiki/Tunku_Abdul_Rahman">Tuanku Abdul Rahman</a> who took over after independence from the British. Many years later, (last photo) he is standing with the then—and surprisingly current—prime minister of Malaysia, <a href="https://en.wikipedia.org/wiki/Mahathir_Mohamad">Mahathir Mohamad</a>.
   </figcaption>
 </figure>
 
