@@ -6,7 +6,7 @@ class: dad
 image: http://www.achariam.com/assets/img/dad/sunset.jpg
 ---
 
-Dec 21 2018
+<span class="date">Dec 21 2018</span>
 ## A Eulogy For My Father
 
 > I am the master of my fate, I am the captain of my soul
