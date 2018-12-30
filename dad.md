@@ -72,7 +72,7 @@ He then spent the next few years helping his family while trying to rebuild a li
 <figure>
   <img src="/assets/img/dad/chief.png" alt="My dad and his best friend."/>
   <figcaption>
-    My dad and his best friend—not related by blood but as dear as a brother to him and the rest of the family. Uncle Jalal was one the kindest caring people you could know and also happened to be the head fire department chief of the island I was born on, Penang.
+    My dad and his best friend—not related by blood but as dear as a brother to him and the rest of the family. Uncle Jalal was one of the kindest caring people you could know and also happened to be the head fire department chief of the island I was born on, Penang.
   </figcaption>
 </figure>
 
