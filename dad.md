@@ -29,7 +29,7 @@ He was born into a big family, one of seven brothers and sisters, in a small tow
 <figure>
   <img src="/assets/img/dad/grandparents.png" alt="My Grandparents"/>
   <figcaption>
-    My grandparents (from left), the Rev. & Mrs. Achariam. June 12 1968.
+    My grandpa (middle), Rev. Achariam. June 12 1968.
   </figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ By now, he had spent years building a promising life for himself abroad but gave
   </figcaption>
 </figure>
 
-He then spent the next few years helping his family all while trying to rebuild a life for himself back in Malaysia. He accomplished many things from being a radio engineer, tour guide, and even a successful artist. He eventually found a career working in the hotel industry doing what he did best, connecting with people. He rose through the ranks becoming a great executive, orchestrating million dollar events at some of the most beautiful hotels in Malaysia. While doing all of this he also struck gold by discovering his lifelong companion, my mother.
+He then spent the next few years helping his family while trying to rebuild a life for himself back in Malaysia. He accomplished many things from being a radio engineer, tour guide, and even a successful artist. He eventually found a career working in the hotel industry doing what he did best, connecting with people. He rose through the ranks becoming a great executive, orchestrating million dollar events at some of the most beautiful hotels in Malaysia. While doing all of this he also struck gold by discovering his lifelong companion, my mother.
 
 <figure>
   <img src="/assets/img/dad/wedding.png" alt="My parents on their wedding day."/>
@@ -137,9 +137,6 @@ Towards the end I felt really selfish, I wanted more of this great man in my lif
 
 <figure>
   <img src="/assets/img/dad/home.png" alt="Dad"/>
-</figure>
-
-<figure>
   <img src="/assets/img/dad/us.jpg" alt="Family"/>
 </figure>
 
