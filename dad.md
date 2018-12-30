@@ -11,7 +11,7 @@ Dec 21 2018
 
 > I am the master of my fate, I am the captain of my soul
 
-This is the final line of [Invictus](https://www.poetryfoundation.org/poems/51642/invictus), a poem by William Ernest Henley, that helped comfort Nelson Mandela's spirit as he faced unfair imprisonment in South Africa. I have been ruminating on these words as it captures the very same spirit my father carried to his very last day for us—strength.
+This is the final line of [Invictus](https://www.poetryfoundation.org/poems/51642/invictus), a poem by William Ernest Henley, that helped comfort Nelson Mandela as he faced unfair imprisonment in South Africa. I have been ruminating on these words as it captures the very same spirit my father carried to his very last day for us—strength.
 
 My dad[^1] led our small family through many hills and valleys over his lifetime and all through it we never felt a limit to his love for us. In fact, he had so much love to give that he readily shared it with those around him as well.
 
