@@ -52,12 +52,20 @@
         text-decoration: none;
       }
 
+      a:hover {
+        color: var(--midnight);
+      }
+
       @media (prefers-color-scheme: dark) {
         body {
           background: var(--midnight);
         }
 
         h1 {
+          color: var(--light);
+        }
+
+        a:hover {
           color: var(--light);
         }
       }
